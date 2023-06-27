@@ -10,7 +10,7 @@ export const Home = () => {
                 {/* ***** Logo Start ***** */}
                 <a href="/" className="logo">
                   <img
-                    src="iletsproject\public\assets\images\BhashaLogo.png"
+                    src="..\assets\images\BhashaLogo.png"
                     alt="Bhasha"
                   ></img>
                 </a>

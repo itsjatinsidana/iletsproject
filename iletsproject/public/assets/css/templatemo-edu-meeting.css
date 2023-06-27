@@ -300,6 +300,9 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  height: 60px;
+  width: 250px;
+  margin-top: -15px;
 }
 
 .background-header .main-nav .logo {
@@ -396,6 +399,7 @@ header
   padding-left: 0px;
   padding-right: 0px;
 }
+
 
 .header-area .main-nav .nav li.has-sub ul.sub-menu li a {
   opacity: 1;
