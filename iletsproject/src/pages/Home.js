@@ -335,32 +335,33 @@ export const Home = () => {
               <div className="row">
                 <div className="col-lg-12">
                   <div className="item">
-                    <h3>APPLY FOR BACHELOR DEGREE</h3>
-                    <p>
-                      You are allowed to use this edu meeting CSS template for
-                      your school or university or business. You can feel free
-                      to modify or edit this layout.
-                    </p>
-                    <div className="main-button-red">
+                    <h3>FREE DEMO CLASSES</h3>
+                   
+                    <img 
+                    src="..\assets\images\download1F.png"
+                    alt="Free Demo Classes"
+                  ></img>
+                  
+                  
+                    {/* <div className="main-button-red">
                       <div className="scroll-to-section">
                         <a href="#contact">Join Us Now!</a>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="col-lg-12">
                   <div className="item">
-                    <h3>APPLY FOR BACHELOR DEGREE</h3>
-                    <p>
-                      You are not allowed to redistribute the template ZIP file
-                      on any other template website. Please contact us for more
-                      information.
-                    </p>
-                    <div className="main-button-yellow">
+                    <h3>MODULE-WISE LEARNING</h3>
+                    <img 
+                    src="..\assets\images\download2.png"
+                    alt="Module-Wise Learning"
+                  ></img>
+                    {/* <div className="main-button-yellow">
                       <div className="scroll-to-section">
                         <a href="#contact">Join Us Now!</a>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -371,32 +372,30 @@ export const Home = () => {
               <div className="row">
                 <div className="col-lg-12">
                   <div className="item">
-                    <h3>APPLY FOR BACHELOR DEGREE</h3>
-                    <p>
-                      You are allowed to use this edu meeting CSS template for
-                      your school or university or business. You can feel free
-                      to modify or edit this layout.
-                    </p>
-                    <div className="main-button-red">
+                    <h3>SPEAKING MOCK TEST PRACTISE </h3>
+                    <img 
+                    src="..\assets\images\download3.png"
+                    alt="Module-Wise Learning"
+                  ></img>
+                    {/* <div className="main-button-red">
                       <div className="scroll-to-section">
                         <a href="#contact">Join Us Now!</a>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="col-lg-12">
                   <div className="item">
-                    <h3>APPLY FOR BACHELOR DEGREE</h3>
-                    <p>
-                      You are not allowed to redistribute the template ZIP file
-                      on any other template website. Please contact us for more
-                      information.
-                    </p>
-                    <div className="main-button-yellow">
+                    <h3>MOCK TEST EVALUATION</h3>
+                    <img 
+                    src="..\assets\images\download4.png"
+                    alt="Module-Wise Learning"
+                  ></img>
+                    {/* <div className="main-button-yellow">
                       <div className="scroll-to-section">
                         <a href="#contact">Join Us Now!</a>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

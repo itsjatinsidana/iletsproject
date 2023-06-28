@@ -1062,6 +1062,13 @@ section.apply-now .item h3 {
   margin-bottom: 20px;
 }
 
+.section.apply-now .item img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover; /* Adjusts the image to cover the container while preserving aspect ratio */
+  object-position: right; /* Positions the image at the center of the container */
+}
+
 section.apply-now .item p {
   color: #fff;
   margin-bottom: 20px;
