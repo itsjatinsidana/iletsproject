@@ -1,6 +1,11 @@
+import { Navbar } from "../component/Navbar"
+
 export const About=()=>{
     return(
-        <>HelloWorld!
+       
+        <>
+         <Navbar/>
+        HelloWorld!
         <h1>
             how are uh aman 
         </h1>
