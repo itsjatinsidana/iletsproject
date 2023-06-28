@@ -18,7 +18,7 @@ export const Navbar = () =>{
                 {/* ***** Menu Start ***** */}
                 <ul className="nav">
                   <li className="scroll-to-section">
-                    <a href="#top" className="active">
+                    <a href="./" className="active">
                       Home
                     </a>
                   </li>
