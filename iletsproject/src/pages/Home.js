@@ -23,10 +23,10 @@ export const Home = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="meetings.html">Meetings</a>
+                    <a href="\courses">courses</a>
                   </li>
                   <li className="scroll-to-section">
-                    <a href="#apply">Apply Now</a>
+                    <a href="\coursedetail">coursedetail</a>
                   </li>
                   <li className="has-sub">
                     <a href="javascript:void(0)">Pages</a>
@@ -930,6 +930,7 @@ export const Home = () => {
                   <li>
                     <h6>Phone Number</h6>
                     <span>+91-9324265667</span>
+                    <span>+91-9915846353</span>
                   </li>
                   <li>
                     <h6>Email Address</h6>

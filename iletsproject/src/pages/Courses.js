@@ -20,15 +20,15 @@ export const Courses = () =>{
             {/* ***** Menu Start ***** */}
             <ul className="nav">
               <li>
-                <a href="index.html">Home</a>
+                <a href="\">Home</a>
               </li>
               <li>
-                <a href="meetings.html" className="active">
-                  Meetings
+                <a href="\couses" className="active">
+                  courses
                 </a>
               </li>
               <li>
-                <a href="index.html">Apply Now</a>
+                <a href="\coursedetail">course detail</a>
               </li>
               <li className="has-sub">
                 <a href="javascript:void(0)">Pages</a>
