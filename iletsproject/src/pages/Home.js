@@ -93,7 +93,7 @@ export const Home = () => {
               <div className="owl-service-item owl-carousel">
                 <div className="item">
                   <div className="icon">
-                    <img src="assets/images/service-icon-01.png" alt="" />
+                    <img src="..\assets\images\service-icon-01.png" alt="" />
                   </div>
                   <div className="down-content">
                     <h4>Best Education</h4>
@@ -105,7 +105,7 @@ export const Home = () => {
                 </div>
                 <div className="item">
                   <div className="icon">
-                    <img src="assets/images/service-icon-02.png" alt="" />
+                    <img src="../assets/images/service-icon-02.png" alt="" />
                   </div>
                   <div className="down-content">
                     <h4>Best Teachers</h4>
@@ -117,7 +117,7 @@ export const Home = () => {
                 </div>
                 <div className="item">
                   <div className="icon">
-                    <img src="assets/images/service-icon-03.png" alt="" />
+                    <img src="../assets/images/service-icon-03.png" alt="" />
                   </div>
                   <div className="down-content">
                     <h4>Best Students</h4>
@@ -129,7 +129,7 @@ export const Home = () => {
                 </div>
                 <div className="item">
                   <div className="icon">
-                    <img src="assets/images/service-icon-02.png" alt="" />
+                    <img src="../assets/images/service-icon-02.png" alt="" />
                   </div>
                   <div className="down-content">
                     <h4>Online Meeting</h4>
@@ -141,7 +141,7 @@ export const Home = () => {
                 </div>
                 <div className="item">
                   <div className="icon">
-                    <img src="assets/images/service-icon-03.png" alt="" />
+                    <img src="../assets/images/service-icon-03.png" alt="" />
                   </div>
                   <div className="down-content">
                     <h4>Best Networking</h4>
