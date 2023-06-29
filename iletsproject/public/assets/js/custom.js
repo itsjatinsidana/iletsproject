@@ -295,7 +295,7 @@ function onScroll(event) {
     }
 
 
-	function visible(partial) {
+	{/*function visible(partial) {
         var $t = partial,
             $w = jQuery(window),
             viewTop = $w.scrollTop(),
@@ -308,6 +308,30 @@ function onScroll(event) {
         return ((compareBottom <= viewBottom) && (compareTop >= viewTop) && $t.is(':visible'));
 
     }
+*/}
+function visible(partial) {
+	var $t = partial,
+		$w = jQuery(window),
+		viewTop = $w.scrollTop(),
+		viewBottom = viewTop + $w.height(),
+		_top,
+		_bottom,
+		compareTop,
+		compareBottom;
+  
+	if ($t && $t.length && $t.offset) {
+	  _top = $t.offset().top;
+	  _bottom = _top + $t.height();
+	  compareTop = partial === true ? _bottom : _top;
+	  compareBottom = partial === true ? _top : _bottom;
+  
+	  return ((compareBottom <= viewBottom) && (compareTop >= viewTop) && $t.is(':visible'));
+	}
+  
+	return false; // Return false if the element is undefined, empty, or offset is not available
+  }
+  
+  
 
     $(window).scroll(function() {
 

@@ -883,6 +883,9 @@ services
   border-radius: 50%;
   line-height: 50px;
 }
+.course-navbar{
+  background-color: #1e1e1e;
+}
 
 
 /*
