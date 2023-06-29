@@ -90,246 +90,124 @@ export const Courses = () =>{
                 <div className="col-lg-4 templatemo-item-col all soon">
                   <div className="meeting-item">
                     <div className="thumb">
-                      <div className="price">
-                        <span>$14.00</span>
-                      </div>
+                      
                       <a href="meeting-details.html">
-                        <img src="assets/images/meeting-01.jpg" alt="" />
+                        <img src="assets/images/ieltsFinal.png" alt="" />
                       </a>
                     </div>
                     <div className="down-content">
-                      <div className="date">
-                        <h6>
-                          Nov <span>12</span>
-                        </h6>
-                      </div>
+                      
                       <a href="meeting-details.html">
-                        <h4>New Lecturers Meeting</h4>
+                      <h2>Know More!</h2>
                       </a>
-                      <p>
-                        Morbi in libero blandit lectus
-                        <br />
-                        cursus ullamcorper.
-                      </p>
+                     
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-4 templatemo-item-col all imp">
                   <div className="meeting-item">
                     <div className="thumb">
-                      <div className="price">
-                        <span>$22.00</span>
-                      </div>
+                     
                       <a href="meeting-details.html">
-                        <img src="assets/images/meeting-02.jpg" alt="" />
+                        <img src="assets/images/pteFinal.png" alt="" />
                       </a>
                     </div>
                     <div className="down-content">
-                      <div className="date">
-                        <h6>
-                          Nov <span>14</span>
-                        </h6>
-                      </div>
+                     
                       <a href="meeting-details.html">
-                        <h4>Online Teaching Techniques</h4>
+                      <h2>Know More!</h2>
                       </a>
-                      <p>
-                        Morbi in libero blandit lectus
-                        <br />
-                        cursus ullamcorper.
-                      </p>
+                     
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-4 templatemo-item-col all soon">
                   <div className="meeting-item">
                     <div className="thumb">
-                      <div className="price">
-                        <span>$24.00</span>
-                      </div>
+                      
                       <a href="meeting-details.html">
-                        <img src="assets/images/meeting-03.jpg" alt="" />
+                        <img src="assets/images/toeflFinal.png" alt="" />
                       </a>
                     </div>
                     <div className="down-content">
-                      <div className="date">
-                        <h6>
-                          Nov <span>16</span>
-                        </h6>
-                      </div>
+                     
                       <a href="meeting-details.html">
-                        <h4>Network Teaching Concept</h4>
+                        <h2>Know More!</h2>
                       </a>
-                      <p>
-                        Morbi in libero blandit lectus
-                        <br />
-                        cursus ullamcorper.
-                      </p>
+                     
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-4 templatemo-item-col all att">
                   <div className="meeting-item">
                     <div className="thumb">
-                      <div className="price">
-                        <span>$32.00</span>
-                      </div>
+                     
                       <a href="meeting-details.html">
-                        <img src="assets/images/meeting-04.jpg" alt="" />
+                        <img src="assets/images/frenchFinal.png" alt="" />
                       </a>
                     </div>
                     <div className="down-content">
-                      <div className="date">
-                        <h6>
-                          Nov <span>18</span>
-                        </h6>
-                      </div>
+                     
                       <a href="meeting-details.html">
-                        <h4>Online Teaching Tools</h4>
+                      <h2>Know More!</h2>
                       </a>
-                      <p>
-                        Morbi in libero blandit lectus
-                        <br />
-                        cursus ullamcorper.
-                      </p>
+                     
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-4 templatemo-item-col all att">
                   <div className="meeting-item">
                     <div className="thumb">
-                      <div className="price">
-                        <span>$34.00</span>
-                      </div>
+                     
                       <a href="meeting-details.html">
-                        <img src="assets/images/meeting-02.jpg" alt="" />
+                        <img src="assets/images/oetFinal.png" alt="" />
                       </a>
                     </div>
                     <div className="down-content">
-                      <div className="date">
-                        <h6>
-                          Nov <span>22</span>
-                        </h6>
-                      </div>
+                     
                       <a href="meeting-details.html">
-                        <h4>New Teaching Techniques</h4>
+                      <h2>Know More!</h2>
                       </a>
-                      <p>
-                        Morbi in libero blandit lectus
-                        <br />
-                        cursus ullamcorper.
-                      </p>
+                     
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-4 templatemo-item-col all imp">
                   <div className="meeting-item">
                     <div className="thumb">
-                      <div className="price">
-                        <span>$45.00</span>
-                      </div>
+                      
                       <a href="meeting-details.html">
-                        <img src="assets/images/meeting-03.jpg" alt="" />
+                        <img src="assets/images/spokenenglishFinal.png" alt="" />
                       </a>
                     </div>
                     <div className="down-content">
-                      <div className="date">
-                        <h6>
-                          Nov <span>24</span>
-                        </h6>
-                      </div>
+                     
                       <a href="meeting-details.html">
-                        <h4>Technology Conference</h4>
+                      <h2>Know More!</h2>
                       </a>
-                      <p>
-                        TemplateMo is the best website
-                        <br />
-                        when it comes to Free CSS.
-                      </p>
+                     
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-4 templatemo-item-col all imp att">
                   <div className="meeting-item">
                     <div className="thumb">
-                      <div className="price">
-                        <span>$52.00</span>
-                      </div>
+                     
                       <a href="meeting-details.html">
                         <img src="assets/images/meeting-01.jpg" alt="" />
                       </a>
                     </div>
                     <div className="down-content">
-                      <div className="date">
-                        <h6>
-                          Nov <span>27</span>
-                        </h6>
-                      </div>
+                     
                       <a href="meeting-details.html">
-                        <h4>Online Teaching Techniques</h4>
+                      <h2>Know More!</h2>
                       </a>
-                      <p>
-                        Morbi in libero blandit lectus
-                        <br />
-                        cursus ullamcorper.
-                      </p>
+                     
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4 templatemo-item-col all soon imp">
-                  <div className="meeting-item">
-                    <div className="thumb">
-                      <div className="price">
-                        <span>$64.00</span>
-                      </div>
-                      <a href="meeting-details.html">
-                        <img src="assets/images/meeting-02.jpg" alt="" />
-                      </a>
-                    </div>
-                    <div className="down-content">
-                      <div className="date">
-                        <h6>
-                          Nov <span>28</span>
-                        </h6>
-                      </div>
-                      <a href="meeting-details.html">
-                        <h4>Instant Lecture Design</h4>
-                      </a>
-                      <p>
-                        Morbi in libero blandit lectus
-                        <br />
-                        cursus ullamcorper.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-4 templatemo-item-col all att soon">
-                  <div className="meeting-item">
-                    <div className="thumb">
-                      <div className="price">
-                        <span>$74.00</span>
-                      </div>
-                      <a href="meeting-details.html">
-                        <img src="assets/images/meeting-03.jpg" alt="" />
-                      </a>
-                    </div>
-                    <div className="down-content">
-                      <div className="date">
-                        <h6>
-                          Nov <span>30</span>
-                        </h6>
-                      </div>
-                      <a href="meeting-details.html">
-                        <h4>Online Social Networking</h4>
-                      </a>
-                      <p>
-                        Morbi in libero blandit lectus
-                        <br />
-                        cursus ullamcorper.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                
+               
               </div>
             </div>
             <div className="col-lg-12">
