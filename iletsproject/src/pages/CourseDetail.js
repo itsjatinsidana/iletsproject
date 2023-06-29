@@ -75,21 +75,15 @@ export const CourseDetail = () =>{
                   <div className="col-lg-12">
                     <div className="meeting-single-item">
                       <div className="thumb">
-                        <div className="price">
-                          <span>$14.00</span>
-                        </div>
-                        <div className="date">
-                          <h6>
-                            Nov <span>12</span>
-                          </h6>
-                        </div>
+                        
+                       
                         <a href="meeting-details.html">
                           <img src="assets/images/single-meeting.jpg" alt="" />
                         </a>
                       </div>
                       <div className="down-content">
                         <a href="meeting-details.html">
-                          <h4>Online Teaching and Learning Tools</h4>
+                          <h4>IELTS</h4>
                         </a>
                         <p>
                           Recreio dos Bandeirantes, Rio de Janeiro - RJ, 22795-008,
