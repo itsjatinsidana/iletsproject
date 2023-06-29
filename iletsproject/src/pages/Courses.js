@@ -10,8 +10,11 @@ export const Courses = () =>{
         <div className="col-12">
           <nav className="main-nav">
             {/* ***** Logo Start ***** */}
-            <a href="index.html" className="logo">
-              Edu Meeting
+            <a href="/" className="logo">
+            <img
+                    src="..\assets\images\BhashaLogo.png"
+                    alt="Bhasha"
+                  ></img>
             </a>
             {/* ***** Logo End ***** */}
             {/* ***** Menu Start ***** */}
