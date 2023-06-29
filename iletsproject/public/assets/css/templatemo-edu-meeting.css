@@ -1678,6 +1678,8 @@ section.meetings-page .pagination ul li a:hover {
   margin-bottom: 40px;
   padding-bottom: 40px;
   border-bottom: 1px solid #eee;
+  padding-left: 40%;
+  padding-right: 40%;
 }
 
 .meeting-single-item .down-content .share {
