@@ -44,6 +44,62 @@ figure, header, nav, section, article, aside, footer, figcaption {
   outline: 0;
 }
 
+
+.card {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px; /* Adjust as needed */
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 14px;
+}
+.card-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 23%; /* Adjust as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -776,12 +832,28 @@ services
 ---------------------------------------------
 */
 
-.services {
+ /*.services {
   margin-top: -135px;
   position: absolute;
   width: 100%;
 }
-
+*/
+   .services{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 2rem 0;
+   margin-top: -135px;
+    
+   
+   }
+   .services .cardflex{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+   }
+  
 .services .item {
   background-image: url(../images/service-item-bg.jpg);
   background-repeat: no-repeat;
@@ -790,8 +862,17 @@ services
   border-radius: 20px;
   text-align: center;
   color: #fff;
-  padding: 40px;
+  padding: 25px;
+  
+
+} 
+/*
+.services .item{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
 }
+*/
 
 .services .item .icon {
   max-width: 60px;
@@ -902,6 +983,7 @@ section.upcoming-meetings {
   background-size: cover;
   padding-top: 230px;
   padding-bottom: 110px;
+  position: relative;
 }
 
 section.upcoming-meetings .section-heading {

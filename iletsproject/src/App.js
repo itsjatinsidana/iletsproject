@@ -4,6 +4,7 @@ import { About } from './pages/About';
 import { Courses } from './pages/Courses';
 import { CourseDetail } from './pages/CourseDetail';
 import { CoursesList } from './component/CouresList';
+import { Cards } from './component/Cards';
 
 
 
@@ -17,6 +18,7 @@ function App() {
                     <Route path='/courses' element={<Courses/>}/>       
                     <Route path='/coursedetail' element={<CourseDetail/>}/>  
                     <Route path='/courselist' element={<CoursesList/>}/>  
+                    <Route path='/cards' element={<Cards/>}/> 
                 </Routes>
             </BrowserRouter>
         </>
