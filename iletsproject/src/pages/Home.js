@@ -404,7 +404,7 @@ export const Home = () => {
               </div>
             </div>
             <div className="col-lg-12">
-              <div className="owl-courses-item owl-carousel">
+            <div className="owl-courses-item owl-carousel">
                 <div className="item">
                   <img src="assets/images/course-01.jpg" alt="Course One" />
                   <div className="down-content">
