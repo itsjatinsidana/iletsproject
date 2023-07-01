@@ -86,13 +86,13 @@ export const Home = () => {
         </div>
       </section>
       {/* ***** Main Banner Area End ***** */}
-      
+
       <section className="upcoming-meetings" id="meetings">
-      <section className="services">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12 cardflex">
-             
+        <section className="services">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12 cardflex">
+
                 <div className="item">
                   <div className="icon">
                     <img src="..\assets\images\service-icon-01.png" alt="" />
@@ -141,12 +141,12 @@ export const Home = () => {
                     </p>
                   </div>
                 </div>
-               
+
               </div>
             </div>
           </div>
-        
-      </section>
+
+        </section>
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -158,30 +158,30 @@ export const Home = () => {
               <div className="categories">
                 <h4>List of Courses</h4>
                 <ul>
-                <li>
+                  <li>
                     <a href="#">IELTS</a>
                   </li>
-                  <br/>
+                  <br />
                   <li>
                     <a href="#">PTE</a>
                   </li>
-                  <br/>
+                  <br />
                   <li>
                     <a href="#">OET</a>
                   </li>
-                  <br/>
+                  <br />
                   <li>
                     <a href="#">DTE</a>
                   </li>
-                  <br/>
+                  <br />
                   <li>
                     <a href="#">TOEFL</a>
                   </li>
-                  <br/>
+                  <br />
                   <li>
                     <a href="#">SPOKEN ENGLISH (BASICS/ADVANCED)</a>
                   </li>
-                  <br/>
+                  <br />
                   <li>
                     <a href="#">FRENCH</a>
                   </li>
@@ -326,13 +326,13 @@ export const Home = () => {
                 <div className="col-lg-12">
                   <div className="item">
                     <h3>FREE DEMO CLASSES</h3>
-                   
-                    <img 
-                    src="..\assets\images\download1F.png"
-                    alt="Free Demo Classes"
-                  ></img>
-                  
-                  
+
+                    <img
+                      src="..\assets\images\download1F.png"
+                      alt="Free Demo Classes"
+                    ></img>
+
+
                     {/* <div className="main-button-red">
                       <div className="scroll-to-section">
                         <a href="#contact">Join Us Now!</a>
@@ -343,10 +343,10 @@ export const Home = () => {
                 <div className="col-lg-12">
                   <div className="item">
                     <h3>MODULE-WISE LEARNING</h3>
-                    <img 
-                    src="..\assets\images\download2.png"
-                    alt="Module-Wise Learning"
-                  ></img>
+                    <img
+                      src="..\assets\images\download2.png"
+                      alt="Module-Wise Learning"
+                    ></img>
                     {/* <div className="main-button-yellow">
                       <div className="scroll-to-section">
                         <a href="#contact">Join Us Now!</a>
@@ -357,41 +357,41 @@ export const Home = () => {
               </div>
             </div>
             <div className="col-lg-12">
-            <div className="row">
-            <div className="col-lg-6 align-self-center">
               <div className="row">
-                <div className="col-lg-12">
-                  <div className="item">
-                    <h3>SPEAKING MOCK TEST PRACTISE </h3>
-                    <img 
-                    src="..\assets\images\download3.png"
-                    alt="Module-Wise Learning"
-                  ></img>
-                    {/* <div className="main-button-red">
+                <div className="col-lg-6 align-self-center">
+                  <div className="row">
+                    <div className="col-lg-12">
+                      <div className="item">
+                        <h3>SPEAKING MOCK TEST PRACTISE </h3>
+                        <img
+                          src="..\assets\images\download3.png"
+                          alt="Module-Wise Learning"
+                        ></img>
+                        {/* <div className="main-button-red">
                       <div className="scroll-to-section">
                         <a href="#contact">Join Us Now!</a>
                       </div>
                     </div> */}
-                  </div>
-                </div>
-                <div className="col-lg-12">
-                  <div className="item">
-                    <h3>MOCK TEST EVALUATION</h3>
-                    <img 
-                    src="..\assets\images\download4.png"
-                    alt="Module-Wise Learning"
-                  ></img>
-                    {/* <div className="main-button-yellow">
+                      </div>
+                    </div>
+                    <div className="col-lg-12">
+                      <div className="item">
+                        <h3>MOCK TEST EVALUATION</h3>
+                        <img
+                          src="..\assets\images\download4.png"
+                          alt="Module-Wise Learning"
+                        ></img>
+                        {/* <div className="main-button-yellow">
                       <div className="scroll-to-section">
                         <a href="#contact">Join Us Now!</a>
                       </div>
                     </div> */}
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-              </div>
-          </div>
           </div>
         </div>
       </section>
@@ -399,383 +399,92 @@ export const Home = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <div className="section-heading">
+              <div className="section-heading second-card1">
                 <h2>Our Popular Courses</h2>
               </div>
             </div>
-            <div className="col-lg-12">
-            <div className="owl-courses-item owl-carousel">
-                <div className="item">
-                  <img src="assets/images/course-01.jpg" alt="Course One" />
-                  <div className="down-content">
-                    <h4>Morbi tincidunt elit vitae justo rhoncus</h4>
-                    <div className="info">
-                      <div className="row">
-                        <div className="col-8">
-                          <ul>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="col-4">
-                          <span>$160</span>
-                        </div>
+            <div className="col-lg-12 second-card" >
+
+              <div className="item">
+                <img src="assets/images/course-01.jpg" alt="Course One" />
+                <div className="down-content">
+                  <h4>Morbi tincidunt elit vitae justo rhoncus</h4>
+                  <div className="info">
+                    <div className="row">
+                      <div className="col-8">
+                        <ul>
+                          <li>
+                            <i className="fa fa-star" />
+                          </li>
+                          <li>
+                            <i className="fa fa-star" />
+                          </li>
+                          <li>
+                            <i className="fa fa-star" />
+                          </li>
+                          <li>
+                            <i className="fa fa-star" />
+                          </li>
+                          <li>
+                            <i className="fa fa-star" />
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="col-4">
+                        <span>$160</span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="item">
-                  <img src="assets/images/course-02.jpg" alt="Course Two" />
-                  <div className="down-content">
-                    <h4>Curabitur molestie dignissim purus vel</h4>
-                    <div className="info">
-                      <div className="row">
-                        <div className="col-8">
-                          <ul>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="col-4">
-                          <span>$180</span>
-                        </div>
+              </div>
+              <div className="item">
+                <img src="assets/images/course-02.jpg" alt="Course Two" />
+                <div className="down-content">
+                  <h4>Curabitur molestie dignissim purus vel</h4>
+                  <div className="info">
+                    <div className="row">
+                      <div className="col-8">
+                        <ul>
+                          <li>
+                            <i className="fa fa-star" />
+                          </li>
+                          <li>
+                            <i className="fa fa-star" />
+                          </li>
+                          <li>
+                            <i className="fa fa-star" />
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="col-4">
+                        <span>$180</span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="item">
-                  <img src="assets/images/course-03.jpg" alt="" />
-                  <div className="down-content">
-                    <h4>Nulla at ipsum a mauris egestas tempor</h4>
-                    <div className="info">
-                      <div className="row">
-                        <div className="col-8">
-                          <ul>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="col-4">
-                          <span>$140</span>
-                        </div>
+              </div>
+
+              <div className="item">
+                <img src="assets/images/course-02.jpg" alt="Course Two" />
+                <div className="down-content">
+                  <h4>Curabitur molestie dignissim purus vel</h4>
+                  <div className="info">
+                    <div className="row">
+                      <div className="col-8">
+                        <ul>
+                          <li>
+                            <i className="fa fa-star" />
+                          </li>
+                          <li>
+                            <i className="fa fa-star" />
+                          </li>
+                          <li>
+                            <i className="fa fa-star" />
+                          </li>
+                        </ul>
                       </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="item">
-                  <img src="assets/images/course-04.jpg" alt="" />
-                  <div className="down-content">
-                    <h4>Aenean molestie quis libero gravida</h4>
-                    <div className="info">
-                      <div className="row">
-                        <div className="col-8">
-                          <ul>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="col-4">
-                          <span>$120</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="item">
-                  <img src="assets/images/course-01.jpg" alt="" />
-                  <div className="down-content">
-                    <h4>Lorem ipsum dolor sit amet adipiscing elit</h4>
-                    <div className="info">
-                      <div className="row">
-                        <div className="col-8">
-                          <ul>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="col-4">
-                          <span>$250</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="item">
-                  <img src="assets/images/course-02.jpg" alt="" />
-                  <div className="down-content">
-                    <h4>TemplateMo is the best website for Free CSS</h4>
-                    <div className="info">
-                      <div className="row">
-                        <div className="col-8">
-                          <ul>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="col-4">
-                          <span>$270</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="item">
-                  <img src="assets/images/course-03.jpg" alt="" />
-                  <div className="down-content">
-                    <h4>Web Design Templates at your finger tips</h4>
-                    <div className="info">
-                      <div className="row">
-                        <div className="col-8">
-                          <ul>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="col-4">
-                          <span>$340</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="item">
-                  <img src="assets/images/course-04.jpg" alt="" />
-                  <div className="down-content">
-                    <h4>Please visit our website again</h4>
-                    <div className="info">
-                      <div className="row">
-                        <div className="col-8">
-                          <ul>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="col-4">
-                          <span>$360</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="item">
-                  <img src="assets/images/course-01.jpg" alt="" />
-                  <div className="down-content">
-                    <h4>Responsive HTML Templates for you</h4>
-                    <div className="info">
-                      <div className="row">
-                        <div className="col-8">
-                          <ul>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="col-4">
-                          <span>$400</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="item">
-                  <img src="assets/images/course-02.jpg" alt="" />
-                  <div className="down-content">
-                    <h4>Download Free CSS Layouts for your business</h4>
-                    <div className="info">
-                      <div className="row">
-                        <div className="col-8">
-                          <ul>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="col-4">
-                          <span>$430</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="item">
-                  <img src="assets/images/course-03.jpg" alt="" />
-                  <div className="down-content">
-                    <h4>Morbi in libero blandit lectus cursus</h4>
-                    <div className="info">
-                      <div className="row">
-                        <div className="col-8">
-                          <ul>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="col-4">
-                          <span>$480</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="item">
-                  <img src="assets/images/course-04.jpg" alt="" />
-                  <div className="down-content">
-                    <h4>Curabitur molestie dignissim purus</h4>
-                    <div className="info">
-                      <div className="row">
-                        <div className="col-8">
-                          <ul>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                            <li>
-                              <i className="fa fa-star" />
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="col-4">
-                          <span>$560</span>
-                        </div>
+                      <div className="col-4">
+                        <span>$180</span>
                       </div>
                     </div>
                   </div>
@@ -784,8 +493,9 @@ export const Home = () => {
             </div>
           </div>
         </div>
+
       </section>
-      <section className="our-facts">
+      <section className="our-facts ">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
@@ -842,53 +552,53 @@ export const Home = () => {
       </section>
       {/* new component added */}
       <main className="newcss">
-  <div className="container py-4">
-    
-    <div className="p-5 mb-4 bg-light rounded-3">
-      <div className="container-fluid py-5">
-        <h1 className="display-5 fw-bold">Custom jumbotron</h1>
-        <p className="col-md-8 fs-4">
-          Using a series of utilities, you can create this jumbotron, just like
-          the one in previous versions of Bootstrap. Check out the examples
-          below for how you can remix and restyle it to your liking.
-        </p>
-        <button className="btn btn-primary btn-lg" type="button">
-          Example button
-        </button>
-      </div>
-    </div>
-    <div className="row align-items-md-stretch chcolour">
-      <div className="col-md-6">
-        <div className="h-100 p-5 text-white bg-dark rounded-3">
-          <h2>Change the background</h2>
-          <p className="pcolour">
-            Swap the background-color utility and add a `.text-*` color utility
-            to mix up the jumbotron look. Then, mix and match with additional
-            component themes and more.
-          </p>
-          <button className="btn btn-outline-light" type="button">
-            Example button
-          </button>
+        <div className="container py-4">
+
+          <div className="p-5 mb-4 bg-light rounded-3">
+            <div className="container-fluid py-5">
+              <h1 className="display-5 fw-bold">Custom jumbotron</h1>
+              <p className="col-md-8 fs-4">
+                Using a series of utilities, you can create this jumbotron, just like
+                the one in previous versions of Bootstrap. Check out the examples
+                below for how you can remix and restyle it to your liking.
+              </p>
+              <button className="btn btn-primary btn-lg" type="button">
+                Example button
+              </button>
+            </div>
+          </div>
+          <div className="row align-items-md-stretch chcolour">
+            <div className="col-md-6">
+              <div className="h-100 p-5 text-white bg-dark rounded-3">
+                <h2>Change the background</h2>
+                <p className="pcolour">
+                  Swap the background-color utility and add a `.text-*` color utility
+                  to mix up the jumbotron look. Then, mix and match with additional
+                  component themes and more.
+                </p>
+                <button className="btn btn-outline-light" type="button">
+                  Example button
+                </button>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="h-100 p-5 bg-light border rounded-3">
+                <h2>Add borders</h2>
+                <p>
+                  Or, keep it light and add a border for some added definition to the
+                  boundaries of your content. Be sure to look under the hood at the
+                  source HTML here as we've adjusted the alignment and sizing of both
+                  column's content for equal-height.
+                </p>
+                <button className="btn btn-outline-secondary" type="button">
+                  Example button
+                </button>
+              </div>
+            </div>
+          </div>
+
         </div>
-      </div>
-      <div className="col-md-6">
-        <div className="h-100 p-5 bg-light border rounded-3">
-          <h2>Add borders</h2>
-          <p>
-            Or, keep it light and add a border for some added definition to the
-            boundaries of your content. Be sure to look under the hood at the
-            source HTML here as we've adjusted the alignment and sizing of both
-            column's content for equal-height.
-          </p>
-          <button className="btn btn-outline-secondary" type="button">
-            Example button
-          </button>
-        </div>
-      </div>
-    </div>
-    
-  </div>
-</main>
+      </main>
 
       {/*end */}
       <section className="contact-us" id="contact">

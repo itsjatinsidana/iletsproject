@@ -60,12 +60,22 @@ figure, header, nav, section, article, aside, footer, figcaption {
   
 }
 
+
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
 }
+/* second card css*/
+.second-card{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.second-card1{
+  margin-top: -150px;
 
+}
 
 .card {
   width: 100%;
@@ -1393,6 +1403,7 @@ section.our-facts {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 140px 0px 125px 0px;
+  margin-top: -150px;
 }
 
 section.our-facts h2 {
