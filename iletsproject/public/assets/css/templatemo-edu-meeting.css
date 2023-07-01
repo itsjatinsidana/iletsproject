@@ -247,7 +247,7 @@ body {
 .main-button-red a {
   font-size: 13px;
   color: #fff;
-  background-color: #a12c2f;
+  background-color: #f9E900;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -263,7 +263,7 @@ body {
 .main-button-yellow a {
   font-size: 13px;
   color: #fff;
-  background-color: #f5a425;
+  background-color: #a12c2f;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -1151,6 +1151,7 @@ section.apply-now {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 140px 0px;
+  margin-top: -150px;
   
 }
 
@@ -1526,7 +1527,7 @@ section.contact-us #contact textarea {
 section.contact-us #contact button {
   font-size: 13px;
   color: #fff;
-  background-color: #a12c2f;
+  background-color: #f9E900;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -1542,7 +1543,7 @@ section.contact-us #contact button:hover {
 }
 
 section.contact-us .right-info {
-  background-color: #a12c2f;
+  background-color: #f9E900;
   border-radius: 20px;
   padding: 40px;
 }
@@ -1650,7 +1651,7 @@ section.meetings-page .filters {
 
 section.meetings-page .filters li {
   font-size: 13px;
-  color: #a12c2f;
+  color: #f9E900;
   background-color: #fff;
   padding: 11px 30px;
   display: inline-block;
@@ -1664,7 +1665,7 @@ section.meetings-page .filters li {
 
 section.meetings-page .filters ul li.active,
 section.meetings-page .filters ul li:hover {
-  background-color: #a12c2f;
+  background-color: #f9E900;
   color: #fff;
 }
 
@@ -1705,7 +1706,7 @@ section.meetings-page .main-button-red a {
 
 section.meetings-page .pagination ul li.active a,
 section.meetings-page .pagination ul li a:hover {
-  background-color: #a12c2f;
+  background-color: #f9E900;
   color: #fff;
 }
 
