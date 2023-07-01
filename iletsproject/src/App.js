@@ -7,6 +7,8 @@ import { CoursesList } from './component/CouresList';
 import { Cards } from './component/Cards';
 import { PTEcourse } from './pages/PTEcourse';
 import { SecondCard } from './component/SecondCards';
+import { TOEFLcourse } from './pages/TOEFLcourse';
+
 
 
 
@@ -23,6 +25,7 @@ function App() {
                     <Route path='/cards' element={<Cards/>}/> 
                     <Route path='/ptecourse' element={<PTEcourse/>}/> 
                     <Route path='/second' element={<SecondCard/>}/> 
+                    <Route path='/toeflcourse' element={<TOEFLcourse/>}/>
 
                 </Routes>
             </BrowserRouter>

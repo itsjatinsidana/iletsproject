@@ -247,7 +247,7 @@ body {
 .main-button-red a {
   font-size: 13px;
   color: #fff;
-  background-color: #f9E900;
+  background-color: #f5a425;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -286,6 +286,19 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
+}
+
+.section-heading2 h2 {
+  line-height: 40px;
+  margin-top: 0px;
+  margin-bottom: 50px; 
+  padding-bottom: 20px;
+  border-bottom: 1px solid #F5A425
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+  text-align: center;
 }
 
 
@@ -1145,7 +1158,7 @@ apply now
 */
 
 section.apply-now {
-  background-image: url(../images/websitebg.jpg);
+  /* background-color: #f5a425; */
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1167,13 +1180,13 @@ section.apply-now .container .col  {
 }
    
 section.apply-now .item {
-  background-color: rgba(250,250,250,0.15);
+  background-color: #f5a425;
   padding: 40px;
   margin-bottom: 30px;
 
 }
 
-section.apply-now .item h3 {
+section.apply-now .item h2 {
   color: #fff;
   text-transform: uppercase;
   font-size: 24px;
@@ -1241,6 +1254,9 @@ section.apply-now .item p {
   padding: 20px;
   padding-top: 0;
 }
+
+
+
 
 
 /* 
@@ -1527,7 +1543,7 @@ section.contact-us #contact textarea {
 section.contact-us #contact button {
   font-size: 13px;
   color: #fff;
-  background-color: #f9E900;
+  background-color: #f5a425;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -1543,7 +1559,7 @@ section.contact-us #contact button:hover {
 }
 
 section.contact-us .right-info {
-  background-color: #f9E900;
+  background-color: #f5a425;
   border-radius: 20px;
   padding: 40px;
 }
@@ -1651,7 +1667,7 @@ section.meetings-page .filters {
 
 section.meetings-page .filters li {
   font-size: 13px;
-  color: #f9E900;
+  color: #f5a425;
   background-color: #fff;
   padding: 11px 30px;
   display: inline-block;
@@ -1665,7 +1681,7 @@ section.meetings-page .filters li {
 
 section.meetings-page .filters ul li.active,
 section.meetings-page .filters ul li:hover {
-  background-color: #f9E900;
+  background-color: #f5a425;
   color: #fff;
 }
 
@@ -1706,7 +1722,7 @@ section.meetings-page .main-button-red a {
 
 section.meetings-page .pagination ul li.active a,
 section.meetings-page .pagination ul li a:hover {
-  background-color: #f9E900;
+  background-color: #f5a425;
   color: #fff;
 }
 
