@@ -43,6 +43,28 @@ figure, header, nav, section, article, aside, footer, figcaption {
   border: 0;
   outline: 0;
 }
+/* new component css*/
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  
+}
+.newcss{
+  background-color: #08415c;
+}
+.chcolour .pcolour{
+  color: #f7f7f7;
+  
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
 
 
 .card {
@@ -129,6 +151,7 @@ ul, li {
 
 header, nav, section, article, aside, footer, hgroup {
   display: block;
+  
 }
 
 * {
@@ -300,7 +323,7 @@ header
 }
 
 .background-header {
-  background-color: #fff!important;
+  background-color:#08415c!important;
   height: 80px!important;
   position: fixed!important;
   top: 0!important;
@@ -315,7 +338,7 @@ header
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #1e1e1e!important;
+  color: white!important;
 }
 
 .background-header .main-nav .nav li:hover a {
