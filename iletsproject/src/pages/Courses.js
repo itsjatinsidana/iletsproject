@@ -148,7 +148,7 @@ export const Courses = () =>{
                     </div>
                     <div className="down-content">
                      
-                      <a href="meeting-details.html">
+                      <a href="/DUOLINGOcourse">
                       <h2>Know More!</h2>
                       </a>
                      

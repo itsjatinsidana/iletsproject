@@ -248,9 +248,7 @@ export const TOEFLcourse = () => {
                             </div>
                           </div>
 
-                          <div class="container-xxl" style="bgcolor:light-grey">
-                            100% wide until extra extra large breakpoint
-                          </div>
+                       
                         </div>
                       </div>
                     </div>
