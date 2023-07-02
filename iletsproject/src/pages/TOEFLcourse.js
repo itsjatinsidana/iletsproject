@@ -166,6 +166,16 @@ export const TOEFLcourse = () => {
                       <div className="section-heading2">
                         <h2>WHAT'S ON THE TEST?</h2>
                       </div>
+                      <div className="container">
+                        <div className="row">
+                          <div className="col">
+                            <h3>
+                              The TOEFL® test assesses your ability to
+                              communicate in English with four sections:
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
                       <div className="why_ielts_tp">
                         <div className="row">
                           <div className="col-sm-4">
@@ -174,13 +184,12 @@ export const TOEFLcourse = () => {
                                 src="../assets/images/part3icons.svg"
                                 alt=""
                               />
-                              <h4>Part 1: Speaking & Writing </h4>
+                              <h4>Part 1: Reading </h4>
                               <p>
-                                This part of the test contains seven different
-                                question types. You will be tested on both your
-                                speaking and writing skills, and will use
-                                English you might hear in an academic
-                                environment.
+                                <ul type="square">
+                                  <li>3-4 Reading Passages</li>
+                                  <li>10-12 questions per passage</li>
+                                </ul>
                               </p>
                             </div>
                           </div>
@@ -190,12 +199,12 @@ export const TOEFLcourse = () => {
                                 src="../assets/images/part2icons.svg"
                                 alt=""
                               />
-                              <h4>Reading</h4>
+                              <h4>Part 2: Listening</h4>
                               <p>
-                                This part of the test contains five different
-                                question types, and tests your ability to read
-                                academic English. One item type assesses both
-                                writing and reading skills.
+                                <ul type="square">
+                                  <li>3-4 Reading Passages</li>
+                                  <li>10-12 questions per passage</li>
+                                </ul>
                               </p>
                             </div>
                           </div>
@@ -205,19 +214,49 @@ export const TOEFLcourse = () => {
                                 src="../assets/images/3particon.svg"
                                 alt=""
                               />
-                              <h4>Listening</h4>
+                              <h4>Part 3: Speaking</h4>
                               <p>
-                                This part of the test contains eight question
-                                types and tests your listening skills, through a
-                                series of audio and video clips.
+                                <ul type="circle">
+                                  <li>One open question</li>
+                                  <li>
+                                    {" "}
+                                    Three integrated tasks (containing several
+                                    aspects of information processing e.g. an
+                                    audio sequence or a text)
+                                  </li>
+                                </ul>
                               </p>
                             </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="why_ielts_tp">
+                        <div className="row">
+                          <div className="col-sm-4">
+                            <div className="why_ielts_bx">
+                              <img
+                                src="../assets/images/3particon.svg"
+                                alt=""
+                              />
+                              <h4>Part 4: Writing</h4>
+                              <p>
+                                <ul type="circle">
+                                  <li>One open Task</li>
+                                  <li>One Integrated Task</li>
+                                </ul>
+                              </p>
+                            </div>
+                          </div>
+
+                          <div class="container-xxl" style="bgcolor:light-grey">
+                            100% wide until extra extra large breakpoint
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
+
                 <div className="col-lg-12">
                   <div className="main-button-red">
                     <a href="/courses">Back To Meetings List</a>
