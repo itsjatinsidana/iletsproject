@@ -60,12 +60,7 @@ export const Courses = () =>{
   {/* ***** Header Area End ***** */}
   <section className="heading-page header-text" id="top">
     <div className="container">
-      <div className="row">
-        <div className="col-lg-12">
-          <h6>Here are our upcoming meetings</h6>
-          <h2>Upcoming Meetings</h2>
-        </div>
-      </div>
+     
     </div>
   </section>
   <section className="meetings-page" id="meetings">
