@@ -1,4 +1,7 @@
+import React from "react";
+import{useNavigate} from "react-router-dom"
 export const Home = () => {
+  const nav = useNavigate();
   return (
     <>
       {/* ***** Header Area Start ***** */}
@@ -478,19 +481,19 @@ export const Home = () => {
         <div className="container py-4">
 
           <div className="p-5 mb-4 bg-light rounded-3">
-            <div className="container-fluid py-5">
-              <h1 className="display-5 fw-bold">Custom jumbotron</h1>
+            <div className="container-fluid py-5 new-d">
+              <h1 className="display-5 fw-bold new-head">ABOUT US</h1>
               <p className="col-md-8 fs-4">
                 Using a series of utilities, you can create this jumbotron, just like
                 the one in previous versions of Bootstrap. Check out the examples
                 below for how you can remix and restyle it to your liking.
               </p>
-              <button className="btn btn-primary btn-lg" type="button">
-                Example button
+              <button className="btn btn-primary btn-lg new-btn" type="button" onFocus={() => { nav('/about') }}>
+                Know more
               </button>
             </div>
           </div>
-          <div className="row align-items-md-stretch chcolour">
+       {/*  <div className="row align-items-md-stretch chcolour">
             <div className="col-md-6">
               <div className="h-100 p-5 text-white bg-dark rounded-3">
                 <h2>Change the background</h2>
@@ -519,8 +522,8 @@ export const Home = () => {
               </div>
             </div>
           </div>
-
-        </div>
+                       */} 
+        </div>  
       </main>
 
       {/*end */}

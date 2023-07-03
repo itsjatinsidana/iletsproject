@@ -9,6 +9,7 @@ import { PTEcourse } from './pages/PTEcourse';
 import { SecondCard } from './component/SecondCards';
 import { TOEFLcourse } from './pages/TOEFLcourse';
 import { DUOLINGOcourse } from './pages/DUOLINGOcourse';
+import { Footer } from './component/Footer';
 
 
 
@@ -29,6 +30,7 @@ function App() {
                     <Route path='/second' element={<SecondCard/>}/> 
                     <Route path='/toeflcourse' element={<TOEFLcourse/>}/>
                     <Route path='/duolingocourse' element={<DUOLINGOcourse/>}/>
+                    <Route path='/footer' element={<Footer/>}/>
                     
 
                 </Routes>

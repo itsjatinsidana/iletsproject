@@ -54,11 +54,20 @@ figure, header, nav, section, article, aside, footer, figcaption {
 }
 .newcss{
   background-color: #08415c;
+
 }
 .chcolour .pcolour{
   color: #f7f7f7;
   
 }
+
+.new-btn{
+  background-color: #f5a425;
+  margin-top: 20px;
+  border-radius: 50px;
+  color: #ccc;
+}
+
 
 
 @media (min-width: 768px) {
@@ -66,6 +75,10 @@ figure, header, nav, section, article, aside, footer, figcaption {
     font-size: 3.5rem;
   }
 }
+ .footer{
+  background-color: #08415c;
+ }
+
 /* second card css*/
 .second-card{
   display: flex;
@@ -293,7 +306,7 @@ body {
   margin-top: 0px;
   margin-bottom: 50px; 
   padding-bottom: 20px;
-  border-bottom: 1px solid #F5A425
+  border-bottom: 1px solid #F5A425;
   font-size: 22px;
   font-weight: 700;
   text-transform: uppercase;

@@ -1,9 +1,9 @@
 export const Navbar = () =>{
     return(
         <>
-         {/* ***** Header Area Start ***** */}
-      <header className="header-area header-sticky">
-        <div className="container">
+       
+         <header className="header-area header-sticky ">
+        <div className="container navbar">
           <div className="row">
             <div className="col-12">
               <nav className="main-nav">
@@ -18,15 +18,15 @@ export const Navbar = () =>{
                 {/* ***** Menu Start ***** */}
                 <ul className="nav">
                   <li className="scroll-to-section">
-                    <a href="./" className="active">
+                    <a href="\" className="active">
                       Home
                     </a>
                   </li>
                   <li>
-                    <a href="meetings.html">Meetings</a>
+                    <a href="\courses">courses</a>
                   </li>
                   <li className="scroll-to-section">
-                    <a href="#apply">Apply Now</a>
+                    <a href="\coursedetail">coursedetail</a>
                   </li>
                   <li className="has-sub">
                     <a href="javascript:void(0)">Pages</a>
@@ -55,7 +55,7 @@ export const Navbar = () =>{
           </div>
         </div>
       </header>
-      {/* ***** Header Area End ***** */}
+      
         </>
     )
 }
