@@ -57,8 +57,8 @@ export const CourseDetail = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <h6>Get all details</h6>
-              <h2>Online Teaching and Learning Tools</h2>
+             
+              <h2>Courses</h2>
             </div>
           </div>
         </div>

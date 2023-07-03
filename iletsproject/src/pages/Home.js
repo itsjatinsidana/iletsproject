@@ -1,5 +1,5 @@
 import React from "react";
-import{useNavigate} from "react-router-dom"
+import { useNavigate } from "react-router-dom";
 export const Home = () => {
   const nav = useNavigate();
   return (
@@ -12,10 +12,7 @@ export const Home = () => {
               <nav className="main-nav">
                 {/* ***** Logo Start ***** */}
                 <a href="/" className="logo">
-                  <img
-                    src="..\assets\images\BhashaLogo.png"
-                    alt="Bhasha"
-                  ></img>
+                  <img src="..\assets\images\BhashaLogo.png" alt="Bhasha"></img>
                 </a>
                 {/* ***** Logo End ***** */}
                 {/* ***** Menu Start ***** */}
@@ -95,7 +92,6 @@ export const Home = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-12 cardflex">
-
                 <div className="item">
                   <div className="icon">
                     <img src="..\assets\images\service-icon-01.png" alt="" />
@@ -144,13 +140,11 @@ export const Home = () => {
                     </p>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
-
         </section>
-        <div className="container">
+        {/* <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <div className="section-heading">
@@ -319,7 +313,7 @@ export const Home = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
       <section className="our-courses" id="courses">
         <div className="container">
@@ -329,8 +323,7 @@ export const Home = () => {
                 <h2>Our Popular Courses</h2>
               </div>
             </div>
-            <div className="col-lg-12 second-card" >
-
+            <div className="col-lg-12 second-card">
               <div className="item">
                 <img src="assets/images/course-01.jpg" alt="Course One" />
                 <div className="down-content">
@@ -419,7 +412,6 @@ export const Home = () => {
             </div>
           </div>
         </div>
-
       </section>
       <section className="our-facts ">
         <div className="container">
@@ -479,21 +471,34 @@ export const Home = () => {
       {/* new component added */}
       <main className="newcss">
         <div className="container py-4">
-
           <div className="p-5 mb-4 bg-light rounded-3">
             <div className="container-fluid py-5 new-d">
-              <h1 className="display-5 fw-bold new-head">ABOUT US</h1>
+              <h1 className="display-5 fw-bold new-head">
+                MORE ABOUT BHASHA!!
+              </h1>
               <p className="col-md-8 fs-4">
-                Using a series of utilities, you can create this jumbotron, just like
-                the one in previous versions of Bootstrap. Check out the examples
-                below for how you can remix and restyle it to your liking.
+                By offering classes online, Bhasha is helping students learn and
+                prepare for their exams from the comfort of their own homes,
+                without having to worry about commuting or finding a physical
+                classroom. This can be especially beneficial for international
+                students who may not have access to in-person classes or may
+                have difficulty adjusting to a new environment. Overall,
+                Bhasha's focus on providing hassle-free, online learning
+                opportunities which is a great step towards making education
+                more accessible and inclusive for all.
               </p>
-              <button className="btn btn-primary btn-lg new-btn" type="button" onFocus={() => { nav('/about') }}>
+              <button
+                className="btn btn-primary btn-lg new-btn"
+                type="button"
+                onFocus={() => {
+                  nav("/about");
+                }}
+              >
                 Know more
               </button>
             </div>
           </div>
-       {/*  <div className="row align-items-md-stretch chcolour">
+          {/*  <div className="row align-items-md-stretch chcolour">
             <div className="col-md-6">
               <div className="h-100 p-5 text-white bg-dark rounded-3">
                 <h2>Change the background</h2>
@@ -522,8 +527,8 @@ export const Home = () => {
               </div>
             </div>
           </div>
-                       */} 
-        </div>  
+                       */}
+        </div>
       </main>
 
       {/*end */}

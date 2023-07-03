@@ -56,8 +56,10 @@ figure, header, nav, section, article, aside, footer, figcaption {
   background-color: #08415c;
 
 }
+
+
 .chcolour .pcolour{
-  color: #f7f7f7;
+  color: #F5A425;
   
 }
 
@@ -65,7 +67,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
   background-color: #f5a425;
   margin-top: 20px;
   border-radius: 50px;
-  color: #ccc;
+  color: #FFF;
 }
 
 
@@ -1628,7 +1630,7 @@ heading page
 */
 
 section.heading-page {
-  background-image: url(../images/websiteheader2.png);
+  background-image: url(../images/headFinal.svg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

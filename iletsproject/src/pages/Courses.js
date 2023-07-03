@@ -60,7 +60,12 @@ export const Courses = () =>{
   {/* ***** Header Area End ***** */}
   <section className="heading-page header-text" id="top">
     <div className="container">
-     
+    <div className="row">
+              <div className="col-lg-12">
+             
+                <h2>Courses to Offer!!</h2>
+              </div>
+            </div>
     </div>
   </section>
   <section className="meetings-page" id="meetings">
@@ -85,7 +90,9 @@ export const Courses = () =>{
                 <div className="col-lg-4 templatemo-item-col all soon">
                   <div className="meeting-item">
                     <div className="thumb">
-                      
+                    <div className="row">
+             
+            </div>
                       <a href="meeting-details.html">
                         <img src="assets/images/ieltsFinal.png" alt="" />
                       </a>
