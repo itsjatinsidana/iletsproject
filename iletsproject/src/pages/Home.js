@@ -1,7 +1,33 @@
-import React from "react";
+
 import { useNavigate } from "react-router-dom";
+import React, { useRef,useState } from 'react';
+import emailjs from '@emailjs/browser';
+import Swal from "sweetalert2";
+
 export const Home = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    
+    email: '',
+    number:'',
+    message: '',
+  });
   const nav = useNavigate();
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_wg4j37t', 'template_03kaqns', form.current, 'A6C69JLoTd1CoPmv-')
+      .then((result) => {
+          console.log(result.text);
+          console.log("message sent");
+          setFormData({...formData, name: '', email: '', number: '', message: ''})
+          Swal.fire('Message Sent!','','success');
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   return (
     <>
       {/* ***** Header Area Start ***** */}
@@ -536,7 +562,7 @@ export const Home = () => {
             <div className="col-lg-9 align-self-center">
               <div className="row">
                 <div className="col-lg-12">
-                  <form id="contact" action="" method="post">
+                  <form id="contact" action="" method="post"name="contact" ref={form} onSubmit={sendEmail}>
                     <div className="row">
                       <div className="col-lg-12">
                         <h2>Let's get in touch</h2>
@@ -549,7 +575,7 @@ export const Home = () => {
                             id="name"
                             placeholder="YOURNAME...*"
                             required=""
-                          />
+                            value={formData.name} onChange={e => { setFormData({...formData, name: e.target.value}); }}/>
                         </fieldset>
                       </div>
                       <div className="col-lg-4">
@@ -561,7 +587,7 @@ export const Home = () => {
                             pattern="[^ @]*@[^ @]*"
                             placeholder="YOUR EMAIL..."
                             required=""
-                          />
+                            value={formData.email} onChange={e => { setFormData({...formData, email: e.target.value}); }}/>
                         </fieldset>
                       </div>
                       <div className="col-lg-4">
@@ -572,7 +598,7 @@ export const Home = () => {
                             id="subject"
                             placeholder="PHONE...*"
                             required=""
-                          />
+                            value={formData.number} onChange={e => { setFormData({...formData, number: e.target.value}); }}/>
                         </fieldset>
                       </div>
                       <div className="col-lg-12">
@@ -585,7 +611,7 @@ export const Home = () => {
                             placeholder="YOUR MESSAGE..."
                             required=""
                             defaultValue={""}
-                          />
+                            value={formData.message} onChange={e => { setFormData({...formData, message: e.target.value}); }} />
                         </fieldset>
                       </div>
                       <div className="col-lg-12">
