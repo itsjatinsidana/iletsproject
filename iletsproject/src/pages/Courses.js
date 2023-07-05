@@ -143,7 +143,7 @@ export const Courses = () =>{
                     <div className="thumb">
                      
                       <a href="/duolingocourse">
-                        <img src="assets/images/frenchFinal.png" alt="" />
+                        <img src="assets/images/duoFinal.svg" alt="" />
                       </a>
                     </div>
                     <div className="down-content">
@@ -155,23 +155,7 @@ export const Courses = () =>{
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4 templatemo-item-col all att">
-                  <div className="meeting-item">
-                    <div className="thumb">
-                     
-                      <a href="meeting-details.html">
-                        <img src="assets/images/oetFinal.png" alt="" />
-                      </a>
-                    </div>
-                    <div className="down-content">
-                     
-                      <a href="meeting-details.html">
-                      <h2>Know More!</h2>
-                      </a>
-                     
-                    </div>
-                  </div>
-                </div>
+               
                 <div className="col-lg-4 templatemo-item-col all imp">
                   <div className="meeting-item">
                     <div className="thumb">
@@ -189,23 +173,7 @@ export const Courses = () =>{
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4 templatemo-item-col all imp att">
-                  <div className="meeting-item">
-                    <div className="thumb">
-                     
-                      <a href="meeting-details.html">
-                        <img src="assets/images/meeting-01.jpg" alt="" />
-                      </a>
-                    </div>
-                    <div className="down-content">
-                     
-                      <a href="meeting-details.html">
-                      <h2>Know More!</h2>
-                      </a>
-                     
-                    </div>
-                  </div>
-                </div>
+               
                 
                
               </div>
