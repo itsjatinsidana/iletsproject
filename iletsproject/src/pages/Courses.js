@@ -160,13 +160,13 @@ export const Courses = () =>{
                   <div className="meeting-item">
                     <div className="thumb">
                       
-                      <a href="meeting-details.html">
+                      <a href="/seCourse">
                         <img src="assets/images/spokenenglishFinal.png" alt="" />
                       </a>
                     </div>
                     <div className="down-content">
                      
-                      <a href="meeting-details.html">
+                      <a href="/seCourse">
                       <h2>Know More!</h2>
                       </a>
                      
