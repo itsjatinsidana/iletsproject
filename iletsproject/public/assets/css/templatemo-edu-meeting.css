@@ -55,7 +55,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
 }
  .newbi{
   
-  background-image: url('../images/new1.jpg');
+  background-image: url('../images/new2.svg');
   min-height: 40vh;
   min-width: 20vw;
   background-size: cover;
@@ -69,7 +69,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
   
 }
 .newp{
-  color:#F5A425;
+  color:white;
   margin: 20px;
   font-family: 'Times New Roman', Times, serif;
 
@@ -89,8 +89,9 @@ figure, header, nav, section, article, aside, footer, figcaption {
 .new-btn{
   background-color: #f5a425;
   margin-top: 20px;
-  border-radius: 50px;
-  color: #FFF;
+  border-radius: 20px;
+  color: #08415c;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 

@@ -349,9 +349,9 @@ export const Home = () => {
             </div>
             <div className="col-lg-12 second-card">
               <div className="item">
-                <img src="assets/images/course-01.jpg" alt="Course One" />
+                <img src="assets/images/ieltshome.svg" alt="Course One" />
                 <div className="down-content">
-                  <h4>Morbi tincidunt elit vitae justo rhoncus</h4>
+                  <h4>IELTS</h4>
                   <div className="info">
                     <div className="row">
                       <div className="col-8">
@@ -381,9 +381,9 @@ export const Home = () => {
                 </div>
               </div>
               <div className="item">
-                <img src="assets/images/course-02.jpg" alt="Course Two" />
+                <img src="assets/images/ptehome.svg" alt="Course Two" />
                 <div className="down-content">
-                  <h4>Curabitur molestie dignissim purus vel</h4>
+                  <h4>PTE</h4>
                   <div className="info">
                     <div className="row">
                       <div className="col-8">
@@ -408,9 +408,9 @@ export const Home = () => {
               </div>
 
               <div className="item">
-                <img src="assets/images/course-02.jpg" alt="Course Two" />
+                <img src="assets/images/toeflhome.svg" alt="Course Two" />
                 <div className="down-content">
-                  <h4>Curabitur molestie dignissim purus vel</h4>
+                  <h4>TOEFL</h4>
                   <div className="info">
                     <div className="row">
                       <div className="col-8">
@@ -518,7 +518,7 @@ export const Home = () => {
                   nav("/about");
                 }}
               >
-                Know more
+                Know More
               </button>
             </div>
           </div>
