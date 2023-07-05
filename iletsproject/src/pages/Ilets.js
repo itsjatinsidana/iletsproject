@@ -1,4 +1,4 @@
-export const CourseDetail = () => {
+export const Ilets = () => {
   return (
     <>
       {/* ***** Header Area Start ***** */}

@@ -27,9 +27,7 @@ export const Courses = () =>{
                   courses
                 </a>
               </li>
-              <li>
-                <a href="\coursedetail">course detail</a>
-              </li>
+              
               <li className="has-sub">
                 <a href="javascript:void(0)">Pages</a>
                 <ul className="sub-menu">
@@ -93,13 +91,13 @@ export const Courses = () =>{
                     <div className="row">
              
             </div>
-                      <a href="meeting-details.html">
+                      <a href="/ilets">
                         <img src="assets/images/ieltsFinal.png" alt="" />
                       </a>
                     </div>
                     <div className="down-content">
                       
-                      <a href="/CourseDetail">
+                      <a href="/ilets">
                       <h2>Know More!</h2>
                       </a>
                      
@@ -110,7 +108,7 @@ export const Courses = () =>{
                   <div className="meeting-item">
                     <div className="thumb">
                      
-                      <a href="meeting-details.html">
+                      <a href="/PTEcourse">
                         <img src="assets/images/pteFinal.png" alt="" />
                       </a>
                     </div>
@@ -127,7 +125,7 @@ export const Courses = () =>{
                   <div className="meeting-item">
                     <div className="thumb">
                       
-                      <a href="meeting-details.html">
+                      <a href="/TOEFLcourse">
                         <img src="assets/images/toeflFinal.png" alt="" />
                       </a>
                     </div>
@@ -144,7 +142,7 @@ export const Courses = () =>{
                   <div className="meeting-item">
                     <div className="thumb">
                      
-                      <a href="meeting-details.html">
+                      <a href="/duolingocourse">
                         <img src="assets/images/frenchFinal.png" alt="" />
                       </a>
                     </div>

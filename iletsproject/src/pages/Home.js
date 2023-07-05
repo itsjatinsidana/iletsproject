@@ -25,9 +25,7 @@ export const Home = () => {
                   <li>
                     <a href="\courses">courses</a>
                   </li>
-                  <li className="scroll-to-section">
-                    <a href="\coursedetail">coursedetail</a>
-                  </li>
+                  
                   <li className="has-sub">
                     <a href="javascript:void(0)">Pages</a>
                     <ul className="sub-menu">
@@ -470,13 +468,13 @@ export const Home = () => {
       </section>
       {/* new component added */}
       <main className="newcss">
-        <div className="container py-4">
-          <div className="p-5 mb-4 bg-light rounded-3">
-            <div className="container-fluid py-5 new-d">
+        <div className="container py-4 ">
+          <div className="p-5 mb-4 bg-light rounded-3 newd">
+            <div className="container-fluid py-5 new-d newbi">
               <h1 className="display-5 fw-bold new-head">
                 MORE ABOUT BHASHA!!
               </h1>
-              <p className="col-md-8 fs-4">
+              <p className="col-md-8 fs-4 newp">
                 By offering classes online, Bhasha is helping students learn and
                 prepare for their exams from the comfort of their own homes,
                 without having to worry about commuting or finding a physical
