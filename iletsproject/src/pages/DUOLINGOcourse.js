@@ -102,65 +102,84 @@ export const DUOLINGOcourse = () => {
                         ready to take the test, or “test readiness.”
                       </p>
 
-                      <div class="b-example-divider"></div>
 
-                      <div class="container px-4 py-5" id="icon-grid">
-                        <h2 class="pb-2 border-bottom">
-                          The DUOLINGO Test is:
-                        </h2>
-
-                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-                          <div class="col d-flex align-items-start">
-                            {/* <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calender3"/></svg> */}
+                      <div className="b-example-divider" />
+                      <div className="container px-4 py-5" id="icon-grid">
+                        <h2 className="pb-2 border-bottom">The DUOLINGO Test is:</h2>
+                        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+                          <div className="col d-flex align-items-start">
+                            {"{"}/*{" "}
+                            <svg
+                              className="bi text-body-secondary flex-shrink-0 me-3"
+                              width="1.75em"
+                              height="1.75em"
+                            >
+                              <use xlinkHref="#calender3" />
+                            </svg>{" "}
+                            */{"}"}
                             <div>
-                              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                              <h3 className="fw-bold mb-0 fs-4 text-body-emphasis">
                                 1. CONVINIENT
                               </h3>
                               <p>
-                                Take the test online from your computer at any
-                                time, anywhere in the world.
+                                Take the test online from your computer at any time, anywhere in the
+                                world.
                               </p>
                             </div>
                           </div>
-                          <div class="col d-flex align-items-start">
-                            {/* <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"/></svg> */}
+                          <div className="col d-flex align-items-start">
+                            {"{"}/*{" "}
+                            <svg
+                              className="bi text-body-secondary flex-shrink-0 me-3"
+                              width="1.75em"
+                              height="1.75em"
+                            >
+                              <use xlinkHref="#cpu-fill" />
+                            </svg>{" "}
+                            */{"}"}
                             <div>
-                              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
-                                2. FAST
-                              </h3>
+                              <h3 className="fw-bold mb-0 fs-4 text-body-emphasis">2. FAST</h3>
                               <p>
-                                Complete the test in under ̀ hour and receive
-                                your results in ́ days
+                                Complete the test in under ̀ hour and receive your results in ́ days
                               </p>
                             </div>
                           </div>
-                          <div class="col d-flex align-items-start">
-                            {/* <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"/></svg> */}
+                          <div className="col d-flex align-items-start">
+                            <svg
+                              className="bi text-body-secondary flex-shrink-0 me-3"
+                              width="1.75em"
+                              height="1.75em"
+                            >
+                              <use xlinkHref="#calendar3" />
+                            </svg>
                             <div>
-                              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                              <h3 className="fw-bold mb-0 fs-4 text-body-emphasis">
                                 3. AFFORDABLE
                               </h3>
                               <p>
-                                Only $̃̈49, and you can share your results with an
-                                unlimited number of institutions for no
-                                additional cost.
+                                Only $̃̈49, and you can share your results with an unlimited number of
+                                institutions for no additional cost.
                               </p>
                             </div>
                           </div>
-                          <div class="col d-flex align-items-start">
-                            {/* <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"/></svg> */}
+                          <div className="col d-flex align-items-start">
+                            {"{"}/*{" "}
+                            <svg
+                              className="bi text-body-secondary flex-shrink-0 me-3"
+                              width="1.75em"
+                              height="1.75em"
+                            >
+                              <use xlinkHref="#home" />
+                            </svg>{" "}
+                            */{"}"}
                             <div>
-                              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
-                                4. TRUSTED
-                              </h3>
-                              <p>
-                                Accepted by thousands of top institutions around
-                                the world
-                              </p>
+                              <h3 className="fw-bold mb-0 fs-4 text-body-emphasis">4. TRUSTED</h3>
+                              <p>Accepted by thousands of top institutions around the world</p>
                             </div>
                           </div>
                         </div>
                       </div>
+
 
                       <div className="section-heading2">
                         <h2>HOW IT WORKS?</h2>
@@ -181,7 +200,14 @@ export const DUOLINGOcourse = () => {
                       </div>
                       <div class="row row-cols-1 row-cols row-cols-md-12 row py-5">
                         <div class="col d-flex align-items-start">
-                          {/* <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calender3"/></svg> */}
+                          <svg
+                            className="bi text-body-secondary flex-shrink-0 me-3"
+                            width="1.75em"
+                            height="1.75em"
+                          >
+                            <use xlinkHref="#cpu-fill" />
+                          </svg>
+
                           <div>
                             <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
                               1. ACCESSIBLE
@@ -197,7 +223,14 @@ export const DUOLINGOcourse = () => {
                           </div>
                         </div>
                         <div class="col d-flex align-items-start">
-                          {/* <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"/></svg> */}
+                          <svg
+                            className="bi text-body-secondary flex-shrink-0 me-3"
+                            width="1.75em"
+                            height="1.75em"
+                          >
+                            <use xlinkHref="#cpu-fill" />
+                          </svg>
+
                           <div>
                             <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
                               2. ACCURATE
@@ -210,7 +243,14 @@ export const DUOLINGOcourse = () => {
                           </div>
                         </div>
                         <div class="col d-flex align-items-start">
-                          {/* <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"/></svg> */}
+                          <svg
+                            className="bi text-body-secondary flex-shrink-0 me-3"
+                            width="1.75em"
+                            height="1.75em"
+                          >
+                            <use xlinkHref="#cpu-fill" />
+                          </svg>
+
                           <div>
                             <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
                               3. SECURE
@@ -222,7 +262,14 @@ export const DUOLINGOcourse = () => {
                           </div>
                         </div>
                         <div class="col d-flex align-items-start">
-                          {/* <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"/></svg> */}
+                          <svg
+                            className="bi text-body-secondary flex-shrink-0 me-3"
+                            width="1.75em"
+                            height="1.75em"
+                          >
+                            <use xlinkHref="#cpu-fill" />
+                          </svg>
+
                           <div>
                             <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
                               4. TRUSTED

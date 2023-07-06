@@ -251,6 +251,17 @@ export const TOEFLcourse = () => {
                        
                         </div>
                       </div>
+                      <div className="newulist">
+                       <span className="ulspan">
+                        Note:-
+                       </span>
+                       <ul className="uolist">
+                        <li className="listitem">10 minutes break</li>
+                        <li className="listitem">
+                          taking notes is allowed in all sections. No points will be deducted for in correct answers.
+                        </li>
+                       </ul>
+                      </div>
                     </div>
                   </div>
                 </div>

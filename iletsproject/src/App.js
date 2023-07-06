@@ -10,7 +10,7 @@ import { SecondCard } from './component/SecondCards';
 import { TOEFLcourse } from './pages/TOEFLcourse';
 import { DUOLINGOcourse } from './pages/DUOLINGOcourse';
 import { Footer } from './component/Footer';
-import { seCourse } from './pages/secourse';
+
 
 
 
@@ -32,7 +32,7 @@ function App() {
                     <Route path='/toeflcourse' element={<TOEFLcourse/>}/>
                     <Route path='/duolingocourse' element={<DUOLINGOcourse/>}/>
                     <Route path='/footer' element={<Footer/>}/>
-                    <Route path='/secourse' element={<secourse/>}/>
+                   {/*  <Route path='/secourse' element={<secourse/>}/>*/}
                     
 
                 </Routes>

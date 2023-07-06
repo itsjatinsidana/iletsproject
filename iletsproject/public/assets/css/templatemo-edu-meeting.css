@@ -53,6 +53,30 @@ figure, header, nav, section, article, aside, footer, figcaption {
   
   
 }
+ .newulist{
+  background-color:#DAE5D0;
+  display: flex;
+ justify-content: center;
+  margin: 20px;
+  padding: 10px;
+  gap: 20px;
+
+  
+ 
+}
+.newulist .ulspan{
+  font-size: 20px;
+  font-family: cursive;
+  margin: 10px;
+
+  
+}
+.uolist li{
+  text-decoration: none;
+  list-style-type: disc;
+  text-transform: capitalize;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
  .newbi{
   
   background-image: url('../images/new2.svg');
