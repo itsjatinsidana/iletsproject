@@ -11,6 +11,7 @@ import { TOEFLcourse } from './pages/TOEFLcourse';
 import { DUOLINGOcourse } from './pages/DUOLINGOcourse';
 import { Footer } from './component/Footer';
 import { Spoken } from './pages/Spoken';
+import { SignInForm } from './pages/SignInForm';
 
 
 
@@ -35,6 +36,7 @@ function App() {
                     <Route path='/footer' element={<Footer/>}/>
                    {/*  <Route path='/secourse' element={<secourse/>}/>*/}
                    <Route path='/spoken' element={<Spoken/>}/>
+                   <Route path='/signin' element={<SignInForm/>}/>
 
                 </Routes>
             </BrowserRouter>

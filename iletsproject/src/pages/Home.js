@@ -53,13 +53,13 @@ export const Home = () => {
                   </li>
                   
                   <li className="has-sub">
-                    <a href="javascript:void(0)">Pages</a>
+                    <a href="javascript:void(0)">Sign up</a>
                     <ul className="sub-menu">
                       <li>
-                        <a href="meetings.html">Upcoming Meetings</a>
+                        <a href="\signin">SignIn</a>
                       </li>
                       <li>
-                        <a href="meeting-details.html">Meeting Details</a>
+                        <a href="meeting-details.html">SignUp</a>
                       </li>
                     </ul>
                   </li>
