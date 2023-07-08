@@ -53,7 +53,7 @@ export const Spoken = () => {
         </div>
       </header>
       {/* ***** Header Area End ***** */}
-      <section className="heading-page header-text" id="top">
+      <section className="heading-page header-text head-css" id="top">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -64,22 +64,23 @@ export const Spoken = () => {
         </div>
       </section>
 
-      <section className="meetings-page" id="meetings">
+      <section className="meetings-page meet-css" id="meetings">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <div className="row">
                 <div className="col-lg-12">
-                  <div className="meeting-single-item">
-                    <div className="thumb">
-                      <a href="meeting-details.html">
+                  <div className="meeting-single-item meet-sing-css">
+                 {/*    <div className="thumb img-css">
+                      <a href="/spoken">
                         <img src="assets/images/spokencd.svg" alt="" />
                       </a>
-                    </div>
-                    <div className="down-content">
+  </div>  */}
+                    <div className="down-content down-css">
                       <h2>SPOKEN ENGLISH (SE)</h2>
-                      <p>
-                        <b>
+                      <p className="p-css">
+                        <b className="p-css">
+                          <br/>
                           To convey message from one person to another, we use
                           Spoken English. It is a way of communication. The
                           dialog or conversation between two person or among
@@ -93,7 +94,7 @@ export const Spoken = () => {
                         <br />
                       </p>
 
-                      <div className="b-example-divider" />
+                      <div className="b-example-divider top-css" />
                       <div className="container px-4 py-5" id="icon-grid">
                         <h2 className="pb-2 border-bottom">
                           Steps to speak English fluently:
@@ -125,7 +126,7 @@ export const Spoken = () => {
                         <u>SPOKEN ENGLISH SERVED BY BHASHA:</u>
                       </h3>
                       <br />
-                      <table className="table">
+                      <table className="table table-css">
                         <thead>
                           <tr>
                             <td>Sr. No.</td>

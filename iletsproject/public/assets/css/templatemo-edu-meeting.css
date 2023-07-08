@@ -88,6 +88,51 @@ button[type='submit']:hover {
   background-color: #45a049;
 }
 */
+/* spoken */
+
+
+.down-css{
+  font-family:cursive;
+  font-size: 25px;
+  line-height: 2.6;
+  color: #08415c;
+  
+}
+.down-css .p-css {
+  font-size: 26px;
+  font-style: oblique;
+}
+
+.table-css{
+  width: 100%;
+  border-collapse:separate;
+text-decoration:underline;
+block-size: 10px;
+font-style: italic;
+font-family: cursive;
+background-color: #08415c;
+box-shadow: #08415c;
+}
+.table-css th,
+table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+.table-css th {
+  background-color: #f9f9f9;
+  font-weight: bold;
+}
+
+.table-css tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+
+
+
+
 
 .form-container {
   max-width: 400px;
@@ -2033,6 +2078,7 @@ section.meetings-page .pagination ul li a:hover {
 .meeting-single-item .down-content .share ul li a:hover {
   color: #f5a425;
 }
+
 
 /* Meeting item column */
 .templatemo-item-col {
