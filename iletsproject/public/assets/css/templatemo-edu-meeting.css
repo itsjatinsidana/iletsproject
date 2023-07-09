@@ -1302,9 +1302,14 @@ header
   }
 }
 .fix-here{
-  position:fixed;
+background-color: #08415c;
 }
-
+fix6{
+  background-color: #08415c;
+}
+.fix-here3{
+  background-color: #08415c;
+}
 
 /* 
 ---------------------------------------------

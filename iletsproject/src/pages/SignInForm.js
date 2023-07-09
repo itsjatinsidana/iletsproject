@@ -27,7 +27,7 @@ export const SignInForm = () =>{
   };
   return(
     <> 
-
+<div className="fix-here1">
 <div className="fix-here">
 <header className="header-area header-sticky">
         <div className="container">
@@ -78,16 +78,19 @@ export const SignInForm = () =>{
         </div>
       </header>
 </div>
-<section className="heading-page header-text" id="top">
+</div>
+<div className="fix6">
+<section className="heading-page header-text  fix-here3" >
         <div className="container">
           <div className="row">
-            <div className="col-lg-12">
+            <div className="col-lg-12 ">
              
               <h2> Register! </h2>
             </div>
           </div>
         </div>
       </section>
+</div>
 
       <br/>
       <br/>
