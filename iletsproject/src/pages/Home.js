@@ -354,7 +354,7 @@ export const Home = () => {
             <div className="col-lg-12 second-card">
             <div className="card">
   <div className="card-img">
-  <img src="assets/images/ieltshome.svg" alt="Course One" />
+ <div className="img"/>
   </div>
   <div className="card-title">Product title</div>
   <div className="card-subtitle">
