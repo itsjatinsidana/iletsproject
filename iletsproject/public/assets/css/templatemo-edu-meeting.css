@@ -92,7 +92,7 @@ button[type='submit']:hover {
 
 
 .down-css{
-  font-family:cursive;
+  font-family: 'Poppins', sans-serif;
   font-size: 25px;
   line-height: 2.6;
   color: #08415c;
@@ -109,7 +109,7 @@ button[type='submit']:hover {
 text-decoration:underline;
 block-size: 10px;
 font-style: italic;
-font-family: cursive;
+font-family: 'Poppins', sans-serif;
 background-color: #08415c;
 box-shadow: #08415c;
 }
@@ -142,7 +142,7 @@ table td {
   border-radius: 4px;
   background-color: #ccc;
   box-shadow: 0 0 30px rgba(2, 2, 2, 5);
-  font-family: cursive;
+  font-family: 'Poppins', sans-serif;
  width: 100%;
  color: #ccc;
 }
@@ -231,7 +231,7 @@ button[type='submit']:hover {
 }
 .newulist .ulspan{
   font-size: 20px;
-  font-family: cursive;
+  font-family: 'Poppins', sans-serif;
   margin: 10px;
 
   
@@ -670,9 +670,10 @@ then set the desired styles for .card-img. */
   width: 300px;
   height: 300px;
   background: var(--bg-color);
-  border: 2px solid var(--main-color);
-  box-shadow: 4px 4px var(--main-color);
-  border-radius: 5px;
+  
+  border-radius: 10px;
+  border-bottom: 4px solid #000446;
+  box-shadow: 0 6px 30px rgba(207, 212, 222, 0.3);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

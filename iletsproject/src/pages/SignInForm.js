@@ -78,6 +78,16 @@ export const SignInForm = () =>{
         </div>
       </header>
 </div>
+<section className="heading-page header-text" id="top">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+             
+              <h2> Register! </h2>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <br/>
       <br/>
