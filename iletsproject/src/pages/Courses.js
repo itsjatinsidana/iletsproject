@@ -29,13 +29,13 @@ export const Courses = () =>{
               </li>
               
               <li className="has-sub">
-                <a href="javascript:void(0)">Pages</a>
+                <a href="javascript:void(0)">signup</a>
                 <ul className="sub-menu">
                   <li>
-                    <a href="meetings.html">Upcoming Meetings</a>
+                    <a href="\signin">signin</a>
                   </li>
                   <li>
-                    <a href="meeting-details.html">Meeting Details</a>
+                    <a href="\signup">signup</a>
                   </li>
                 </ul>
               </li>

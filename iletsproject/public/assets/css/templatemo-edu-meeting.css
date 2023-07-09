@@ -1431,12 +1431,13 @@ services
     
    
    }
+
    .services .cardflex{
     display: flex;
     justify-content: space-between;
     gap: 10px;
    }
-  
+ /*
 .services .item {
   background-image: url(../images/service-item-bg.jpg);
   background-repeat: no-repeat;
@@ -1449,13 +1450,21 @@ services
   
 
 } 
-/*
+*/
+
 .services .item{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-direction: row;
+  background-image: url(../images/service-item-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 20px;
+  text-align: center;
+  color: #fff;
+  padding: 25px;
 }
-*/
 
 .services .item .icon {
   max-width: 60px;

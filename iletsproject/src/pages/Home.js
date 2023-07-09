@@ -130,8 +130,8 @@ export const Home = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-12 cardflex">
-                <div className="item">
-                  <div className="icon">
+                <div className="item item1">
+                  <div className="icon icon">
                     <img src="..\assets\images\service-icon-01.png" alt="" />
                   </div>
                   <div className="down-content">
