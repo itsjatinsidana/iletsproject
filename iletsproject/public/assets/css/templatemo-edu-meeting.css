@@ -207,6 +207,84 @@ button[type='submit']:hover {
   background-color: #45a049;
 }
 
+/*signIn Form CSS*/
+
+.cardSI {
+  width: 350px;
+  height: 300px;
+  display:block;
+  align-content: center;
+  background: #F4F6FB;
+  border: 1px solid white;
+  box-shadow: 10px 10px 64px 0px rgba(180, 180, 207, 0.75);
+  -webkit-box-shadow: 10px 10px 64px 0px rgba(186, 186, 202, 0.75);
+  -moz-box-shadow: 10px 10px 64px 0px rgba(208, 208, 231, 0.75);
+}
+
+.formSI {
+  padding: 25px;
+}
+
+.card_headerSI {
+  display: flex;
+  align-items: center;
+}
+
+.cardSI svg {
+  color: #102770;
+  margin-bottom: 20px;
+  margin-right: 5px;
+}
+
+.form_headingSI {
+  padding-bottom: 20px;
+  font-size: 21px;
+  color: #102770;
+}
+
+.fieldSI {
+  padding-bottom: 10px;
+}
+
+.inputSI {
+  border-radius: 5px;
+  background-color: #e9e9f7;
+  padding: 5px;
+  width: 100%;
+  color: #7a7ab3;
+  border: 1px solid #dadaf7
+}
+
+.input:focus-visible {
+  outline: 1px solid #aeaed6;
+}
+
+.input::placeholder {
+  color: #bcbcdf;
+}
+
+label {
+  color: #004790;
+  font-size: 14px;
+  display: block;
+  padding-bottom: 4px;
+}
+
+button {
+  background-color: #102770;
+  margin-top: 10px;
+  font-size: 14px;
+  padding: 7px 12px;
+  height: auto;
+  font-weight: 500;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #5f5f9c;
+}
+
 
 /* new component css*/
 .bd-placeholder-img {
