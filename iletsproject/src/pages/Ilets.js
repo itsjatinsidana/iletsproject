@@ -221,7 +221,7 @@ export const Ilets = () => {
                 </div>
                 <div className="col-lg-12">
                   <div className="main-button-red">
-                    <a href="/courses">Back To Meetings List</a>
+                    <a href="/courses">Back To Courses</a>
                   </div>
                 </div>
               </div>

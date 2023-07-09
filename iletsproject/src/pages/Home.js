@@ -137,8 +137,7 @@ export const Home = () => {
                   <div className="down-content">
                     <h4>FREE DEMO CLASSES</h4>
                     <p>
-                      Suspendisse tempor mauris a sem elementum bibendum.
-                      Praesent facilisis massa non vestibulum.
+                     Register with Bhasha for a free demo class. 
                     </p>
                   </div>
                 </div>
@@ -149,8 +148,7 @@ export const Home = () => {
                   <div className="down-content">
                     <h4>MOCK TEST EVALUATION</h4>
                     <p>
-                      Suspendisse tempor mauris a sem elementum bibendum.
-                      Praesent facilisis massa non vestibulum.
+                    Running a mock test gives your learners a true exam day experience, helps you understand their progress and decide if they are ready for their exam.
                     </p>
                   </div>
                 </div>
@@ -161,8 +159,7 @@ export const Home = () => {
                   <div className="down-content">
                     <h4>MODULE-WISE LEARNING</h4>
                     <p>
-                      Suspendisse tempor mauris a sem elementum bibendum.
-                      Praesent facilisis massa non vestibulum.
+                    Module-wise Modules are routinely refreshed to keep up the uniqueness of the educational program. Students can register for the unique concepts.
                     </p>
                   </div>
                 </div>
@@ -173,8 +170,7 @@ export const Home = () => {
                   <div className="down-content">
                     <h4>SPEAKING MOCK TEST PRACTISE</h4>
                     <p>
-                      Suspendisse tempor mauris a sem elementum bibendum.
-                      Praesent facilisis massa non vestibulum.
+                    Answering practise speaking questions of our courses is one of the best way to prepare for your test.
                     </p>
                   </div>
                 </div>
@@ -558,7 +554,15 @@ export const Home = () => {
               </div> */}
             </div>
           </div>
+         
         </div>
+        <br/>
+        <br/>
+        <div className="col-lg-12" align="center">
+                  <div className="main-button-red">
+                    <a href="/courses">Explore More!</a>
+                  </div>
+                </div>
       </section>
 
       <section className="our-facts ">
