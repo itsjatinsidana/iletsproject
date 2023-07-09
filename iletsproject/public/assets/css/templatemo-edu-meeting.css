@@ -1310,7 +1310,15 @@ fix6{
 .fix-here3{
   background-color: #08415c;
 }
-
+.fix-here1{
+  background-color: #08415c;
+  margin: 0%;
+  padding: 0%;
+}
+.botom-up{
+padding: 0%;
+background-color: #08415c;
+}
 /* 
 ---------------------------------------------
 banner

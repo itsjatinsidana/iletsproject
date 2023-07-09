@@ -78,7 +78,7 @@ export const SignInForm = () =>{
         </div>
       </header>
 </div>
-</div>
+
 <div className="fix6">
 <section className="heading-page header-text  fix-here3" >
         <div className="container">
@@ -91,12 +91,7 @@ export const SignInForm = () =>{
         </div>
       </section>
 </div>
-
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+<br/>
 
  <div className="form-container">
  {/*<div className="image-container">
@@ -207,9 +202,21 @@ export const SignInForm = () =>{
         <button type="submit">Submit</button>
       </form>
     </div>
-    
-    <Footer/>
-
-    </>
+    </div>
+    <div className="footer">
+          <p>
+            Copyright © 2022 Edu Meeting Co., Ltd. All Rights Reserved.
+            <br />
+            Design:{" "}
+            <a
+              href="https://templatemo.com"
+              target="_parent"
+              title="free css templates"
+            >
+              TemplateMo
+            </a>
+          </p>
+        </div>
+    </> 
   )
 }
