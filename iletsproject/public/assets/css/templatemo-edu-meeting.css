@@ -138,20 +138,26 @@ table td {
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #DAE5D0;
   border-radius: 4px;
-  background-color: #f9f9f9;
+  background-color: #ccc;
+  box-shadow: 0 0 30px rgba(2, 2, 2, 5);
+  font-family: cursive;
+ width: 100%;
+ color: #ccc;
 }
 
-h2 {
+.form-container h2 {
   text-align: center;
   margin-bottom: 20px;
-  color: #333;
+  color: #08415c;
 }
 
-form {
+
+.form-container form {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .form-group {
@@ -610,6 +616,8 @@ header
 .header-area .main-nav {
   min-height: 80px;
   background: transparent;
+ 
+  
 }
 
 .header-area .main-nav .logo {
@@ -1001,6 +1009,9 @@ header
   .header-area .main-nav .nav {
     display: flex !important;
   }
+}
+.fix-here{
+  position:fixed;
 }
 
 

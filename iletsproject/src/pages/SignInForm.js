@@ -26,8 +26,10 @@ export const SignInForm = () =>{
     console.log('Payment Received:', paymentReceived);
   };
   return(
-    <> <div className="back-color">
-      <header className="header-area header-sticky">
+    <> 
+
+<div className="fix-here">
+<header className="header-area header-sticky">
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -75,15 +77,18 @@ export const SignInForm = () =>{
           </div>
         </div>
       </header>
+</div>
+
+      <br/>
       <br/>
       <br/>
       <br/>
       <br/>
 
  <div className="form-container">
- <div className="image-container">
+ {/*<div className="image-container">
         <img src="../assets/images/new1.jpg" alt="Form" className="form-image" />
-      </div>
+  </div> */}
       <h2>Sign In</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
@@ -189,7 +194,7 @@ export const SignInForm = () =>{
         <button type="submit">Submit</button>
       </form>
     </div>
-    </div>
+    
     <Footer/>
 
     </>
