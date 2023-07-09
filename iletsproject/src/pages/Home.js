@@ -339,6 +339,9 @@ export const Home = () => {
           </div>
         </div> */}
       </section>
+
+
+
       <section className="our-courses" id="courses">
         <div className="container">
           <div className="row">
@@ -347,96 +350,137 @@ export const Home = () => {
                 <h2>Our Popular Courses</h2>
               </div>
             </div>
+            
             <div className="col-lg-12 second-card">
-              <div className="item">
-                <img src="assets/images/ieltshome.svg" alt="Course One" />
-                <div className="down-content">
-                  <h4>IELTS</h4>
-                  <div className="info">
-                    <div className="row">
-                      <div className="col-8">
-                        <ul>
-                          <li>
-                            <i className="fa fa-star" />
-                          </li>
-                          <li>
-                            <i className="fa fa-star" />
-                          </li>
-                          <li>
-                            <i className="fa fa-star" />
-                          </li>
-                          <li>
-                            <i className="fa fa-star" />
-                          </li>
-                          <li>
-                            <i className="fa fa-star" />
-                          </li>
-                        </ul>
-                      </div>
-                      <div className="col-4">
-                        <span>$160</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="item">
-                <img src="assets/images/ptehome.svg" alt="Course Two" />
-                <div className="down-content">
-                  <h4>PTE</h4>
-                  <div className="info">
-                    <div className="row">
-                      <div className="col-8">
-                        <ul>
-                          <li>
-                            <i className="fa fa-star" />
-                          </li>
-                          <li>
-                            <i className="fa fa-star" />
-                          </li>
-                          <li>
-                            <i className="fa fa-star" />
-                          </li>
-                        </ul>
-                      </div>
-                      <div className="col-4">
-                        <span>$180</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div className="card">
+  <div className="card-img">
+  <img src="assets/images/ieltshome.svg" alt="Course One" />
+  </div>
+  <div className="card-title">Product title</div>
+  <div className="card-subtitle">
+    Product description. Lorem ipsum dolor sit amet, consectetur adipisicing
+    elit.
+  </div>
+  <hr className="card-divider" />
+  <div className="card-footer">
+    <div className="card-price">
+      <span>$</span> 123.45
+    </div>
+    <button className="card-btn">
+      <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+        <path d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z" />
+        <path d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+        <path d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+        <path d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z" />
+      </svg>
+    </button>
+  </div>
+</div>
 
-              <div className="item">
-                <img src="assets/images/toeflhome.svg" alt="Course Two" />
-                <div className="down-content">
-                  <h4>TOEFL</h4>
-                  <div className="info">
-                    <div className="row">
-                      <div className="col-8">
-                        <ul>
-                          <li>
-                            <i className="fa fa-star" />
-                          </li>
-                          <li>
-                            <i className="fa fa-star" />
-                          </li>
-                          <li>
-                            <i className="fa fa-star" />
-                          </li>
-                        </ul>
-                      </div>
-                      <div className="col-4">
-                        <span>$180</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+<div className="card">
+  <div className="card-img">
+  <img src="assets/images/ieltshome.svg" alt="Course One" />
+  </div>
+  <div className="card-title">Product title</div>
+  <div className="card-subtitle">
+    Product description. Lorem ipsum dolor sit amet, consectetur adipisicing
+    elit.
+  </div>
+  <hr className="card-divider" />
+  <div className="card-footer">
+    <div className="card-price">
+      <span>$</span> 123.45
+    </div>
+    <button className="card-btn">
+      <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+        <path d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z" />
+        <path d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+        <path d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+        <path d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z" />
+      </svg>
+    </button>
+  </div>
+</div>
+
+<div className="card">
+  <div className="card-img">
+  <img src="assets/images/ieltshome.svg" alt="Course One" />
+  </div>
+  <div className="card-title">Product title</div>
+  <div className="card-subtitle">
+    Product description. Lorem ipsum dolor sit amet, consectetur adipisicing
+    elit.
+  </div>
+  <hr className="card-divider" />
+  <div className="card-footer">
+    <div className="card-price">
+      <span>$</span> 123.45
+    </div>
+    <button className="card-btn">
+      <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+        <path d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z" />
+        <path d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+        <path d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+        <path d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z" />
+      </svg>
+    </button>
+  </div>
+</div>
+<div className="plan-card">
+<img src="assets/images/ieltshome.svg" alt="Course One" />
+  <h2>
+    Business<span>For business services</span>
+  </h2>
+  <div className="etiquet-price">
+    <p>254.99</p>
+    <div />
+  </div>
+  <div className="benefits-list">
+    <ul>
+      <li>
+        <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+          <path d="M243.8 339.8C232.9 350.7 215.1 350.7 204.2 339.8L140.2 275.8C129.3 264.9 129.3 247.1 140.2 236.2C151.1 225.3 168.9 225.3 179.8 236.2L224 280.4L332.2 172.2C343.1 161.3 360.9 161.3 371.8 172.2C382.7 183.1 382.7 200.9 371.8 211.8L243.8 339.8zM512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM256 48C141.1 48 48 141.1 48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48z" />
+        </svg>
+        <span>Analysis</span>
+      </li>
+      <li>
+        <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+          <path d="M243.8 339.8C232.9 350.7 215.1 350.7 204.2 339.8L140.2 275.8C129.3 264.9 129.3 247.1 140.2 236.2C151.1 225.3 168.9 225.3 179.8 236.2L224 280.4L332.2 172.2C343.1 161.3 360.9 161.3 371.8 172.2C382.7 183.1 382.7 200.9 371.8 211.8L243.8 339.8zM512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM256 48C141.1 48 48 141.1 48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48z" />
+        </svg>
+        <span>Consulting</span>
+      </li>
+      <li>
+        <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+          <path d="M243.8 339.8C232.9 350.7 215.1 350.7 204.2 339.8L140.2 275.8C129.3 264.9 129.3 247.1 140.2 236.2C151.1 225.3 168.9 225.3 179.8 236.2L224 280.4L332.2 172.2C343.1 161.3 360.9 161.3 371.8 172.2C382.7 183.1 382.7 200.9 371.8 211.8L243.8 339.8zM512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM256 48C141.1 48 48 141.1 48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48z" />
+        </svg>
+        <span>Facilitate</span>
+      </li>
+    </ul>
+  </div>
+  <div className="button-get-plan">
+    <a href="#">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 512 512"
+        className="svg-rocket"
+      >
+        <path d="M156.6 384.9L125.7 353.1C117.2 345.5 114.2 333.1 117.1 321.8C120.1 312.9 124.1 301.3 129.8 288H24C15.38 288 7.414 283.4 3.146 275.9C-1.123 268.4-1.042 259.2 3.357 251.8L55.83 163.3C68.79 141.4 92.33 127.1 117.8 127.1H200C202.4 124 204.8 120.3 207.2 116.7C289.1-4.07 411.1-8.142 483.9 5.275C495.6 7.414 504.6 16.43 506.7 28.06C520.1 100.9 516.1 222.9 395.3 304.8C391.8 307.2 387.1 309.6 384 311.1V394.2C384 419.7 370.6 443.2 348.7 456.2L260.2 508.6C252.8 513 243.6 513.1 236.1 508.9C228.6 504.6 224 496.6 224 488V380.8C209.9 385.6 197.6 389.7 188.3 392.7C177.1 396.3 164.9 393.2 156.6 384.9V384.9zM384 167.1C406.1 167.1 424 150.1 424 127.1C424 105.9 406.1 87.1 384 87.1C361.9 87.1 344 105.9 344 127.1C344 150.1 361.9 167.1 384 167.1z" />
+      </svg>
+      <span>START PROJECT</span>
+    </a>
+  </div>
+</div>
+
+
+
+
             </div>
-          </div>
-        </div>
-      </section>
+            </div>
+            </div>
+            </section>
+
+
+
       <section className="our-facts ">
         <div className="container">
           <div className="row">
@@ -491,6 +535,7 @@ export const Home = () => {
             </div>
           </div>
         </div>
+        
       </section>
       {/* new component added */}
       <main className="newcss">
