@@ -1,35 +1,76 @@
+import { Footer } from "../component/Footer"
+
 export const DashBoard = () =>{
     return(
         <>
+
+        <header className="header-area header-sticky">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <nav className="main-nav">
+                {/* ***** Logo Start ***** */}
+                <a href="/" className="logo">
+                  <img src="..\assets\images\BhashaLogo.png" alt="Bhasha"></img>
+                </a>
+                {/* ***** Logo End ***** */}
+                {/* ***** Menu Start ***** */}
+                <ul className="nav">
+                  <li>
+                    <a href="\">Home</a>
+                  </li>
+                  <li>
+                    <a href="\couses" className="active">
+                      courses
+                    </a>
+                  </li>
+
+                  <li className="has-sub">
+                    <a href="javascript:void(0)">signup</a>
+                    <ul className="sub-menu">
+                      <li>
+                        <a href="\signin">signin</a>
+                      </li>
+                      <li>
+                        <a href="\signup">signup</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="index.html">Courses</a>
+                  </li>
+                  <li>
+                    <a href="index.html">Contact Us</a>
+                  </li>
+                </ul>
+                <a className="menu-trigger">
+                  <span>Menu</span>
+                </a>
+                {/* ***** Menu End ***** */}
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      {/* ***** Header Area End ***** */}
+      <section className="heading-page header-text" id="top">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <h2>Courses to Offer!!</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
         <section style={{ backgroundColor: "#eee" }}>
   <div className="container py-5">
+   
     <div className="row">
-      <div className="col">
-        <nav aria-label="breadcrumb" className="bg-light rounded-3 p-3 mb-4">
-          <ol className="breadcrumb mb-0">
-            <li className="breadcrumb-item">
-              <a href="#">Home</a>
-            </li>
-            <li className="breadcrumb-item">
-              <a href="#">User</a>
-            </li>
-            <li className="breadcrumb-item active" aria-current="page">
-              User Profile
-            </li>
-          </ol>
-        </nav>
-      </div>
-    </div>
-    <div className="row">
-      <div className="col-lg-4">
+      <div className="col-lg-6">
         <div className="card mb-4">
           <div className="card-body text-center">
-            <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp"
-              alt="avatar"
-              className="rounded-circle img-fluid"
-              style={{ width: 150 }}
-            />
+          
             <h5 className="my-3">John Smith</h5>
             <p className="text-muted mb-1">Full Stack Developer</p>
             <p className="text-muted mb-4">Bay Area, San Francisco, CA</p>
@@ -43,7 +84,7 @@ export const DashBoard = () =>{
             </div>
           </div>
         </div>
-        <div className="card mb-4 mb-lg-0">
+        {/* <div className="card mb-4 mb-lg-0">
           <div className="card-body p-0">
             <ul className="list-group list-group-flush rounded-3">
               <li className="list-group-item d-flex justify-content-between align-items-center p-3">
@@ -80,58 +121,74 @@ export const DashBoard = () =>{
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
-      <div className="col-lg-8">
+      <div className="col-lg-6">
         <div className="card mb-4">
           <div className="card-body">
             <div className="row">
-              <div className="col-sm-3">
-                <p className="mb-0">Full Name</p>
+              <div className="col-sm-6">
+                <p className="mb-0">Name of the candidate</p>
               </div>
-              <div className="col-sm-9">
+              <div className="col-sm-6">
                 <p className="text-muted mb-0">Johnatan Smith</p>
               </div>
             </div>
             <hr />
             <div className="row">
-              <div className="col-sm-3">
-                <p className="mb-0">Email</p>
+              <div className="col-sm-6">
+                <p className="mb-0">Age</p>
               </div>
-              <div className="col-sm-9">
+              <div className="col-sm-6">
                 <p className="text-muted mb-0">example@example.com</p>
               </div>
             </div>
             <hr />
             <div className="row">
-              <div className="col-sm-3">
-                <p className="mb-0">Phone</p>
+              <div className="col-sm-6">
+                <p className="mb-0">Courses Opted:</p>
               </div>
-              <div className="col-sm-9">
+              <div className="col-sm-6">
                 <p className="text-muted mb-0">(097) 234-5678</p>
               </div>
             </div>
             <hr />
             <div className="row">
-              <div className="col-sm-3">
-                <p className="mb-0">Mobile</p>
+              <div className="col-sm-6">
+                <p className="mb-0">Start Date:</p>
               </div>
-              <div className="col-sm-9">
+              <div className="col-sm-6">
                 <p className="text-muted mb-0">(098) 765-4321</p>
               </div>
             </div>
             <hr />
             <div className="row">
-              <div className="col-sm-3">
-                <p className="mb-0">Address</p>
+              <div className="col-sm-6">
+                <p className="mb-0">End Date:</p>
               </div>
-              <div className="col-sm-9">
+              <div className="col-sm-6">
+                <p className="text-muted mb-0">Bay Area, San Francisco, CA</p>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-sm-6">
+                <p className="mb-0">Country To Apply For:</p>
+              </div>
+              <div className="col-sm-6">
+                <p className="text-muted mb-0">Bay Area, San Francisco, CA</p>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-sm-6">
+                <p className="mb-0">Payment Recieved:</p>
+              </div>
+              <div className="col-sm-6">
                 <p className="text-muted mb-0">Bay Area, San Francisco, CA</p>
               </div>
             </div>
           </div>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-md-6">
             <div className="card mb-4 mb-md-0">
               <div className="card-body">
@@ -286,11 +343,19 @@ export const DashBoard = () =>{
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   </div>
 </section>
+
+<div className="col-lg-12" style={{ backgroundColor: "#eee" }} align="center">
+                  <div className="main-button-red">
+                    <a href="/courses">Back To Courses</a>
+                  </div>
+                </div>
+
+                <Footer/>
 
         </>
     )
