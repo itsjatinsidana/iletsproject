@@ -392,19 +392,29 @@ button:hover {
 
 /* second card css*/
 .second-card{
-  display: flex;
-  justify-content: space-between;
+ display: flex;
+ justify-content: space-around;
+ gap: 20px;
+ box-shadow: 0 0 20px rgba(0, 0, 0, 4);
+ 
+
  
 }
+
 .second-card1{
   margin-top: -150px;
 
 }
 
-.card {
-  width: 100%;
+.second-card .card {
+  width: 150%;
   border: 1px solid #ccc;
   border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  
+
+
 }
 
 .card-img-top {
@@ -413,8 +423,8 @@ button:hover {
   object-fit: cover;
 }
 
-.card-body {
-  padding: 10px;
+.second-card .card.card-body {
+  padding: 10%;
 }
 
 .card-title {

@@ -13,6 +13,7 @@ import { Footer } from './component/Footer';
 import { Spoken } from './pages/Spoken';
 import { SignInForm } from './pages/SignInForm';
 import { SignUp } from './pages/SignUp';
+import { DashBoard } from './pages/DashBoard';
 
 
 
@@ -39,6 +40,7 @@ function App() {
                    <Route path='/spoken' element={<Spoken/>}/>
                    <Route path='/signin' element={<SignInForm/>}/>
                    <Route path='/signup' element={<SignUp/>}/>
+                   <Route path='/dashboard' element={<DashBoard/>}/>
 
                 </Routes>
             </BrowserRouter>
