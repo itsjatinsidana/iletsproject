@@ -208,6 +208,23 @@ button[type='submit']:hover {
 }
 
 /*signIn Form CSS*/
+.spcss {
+  display: inline-block;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.acss {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.acss:hover {
+  color: #ff0000;
+}
+
 
 .cardSI {
   width: 350px;
@@ -223,6 +240,7 @@ button[type='submit']:hover {
 
 .formSI {
   padding: 25px;
+  margin-left: 35%;
 }
 
 .card_headerSI {

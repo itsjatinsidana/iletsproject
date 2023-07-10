@@ -369,11 +369,14 @@ export const Home = () => {
                 <div className="card-subtitle">
                   International English Language Testing System
                 </div>
+             
                 <hr className="card-divider" />
+               
                 <div className="card-footer">
                   <div className="card-price">
                     <span>$</span> 123.45
                   </div>
+                 
                   <button className="card-btn">
                     <svg
                       viewBox="0 0 512 512"
@@ -385,8 +388,11 @@ export const Home = () => {
                       <path d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z" />
                     </svg>
                   </button>
+                  
                 </div>
+                <span className="spcss"> <a className="acss" href="/ilets">Know More</a></span>
               </div>
+              
 
               <div className="card">
                  <div className="card-img">
@@ -398,6 +404,7 @@ export const Home = () => {
                   Pearson's Test of English
                 </div>
                 <hr className="card-divider" />
+              
                 <div className="card-footer">
                   <div className="card-price">
                     <span>$</span> 123.45
@@ -414,6 +421,7 @@ export const Home = () => {
                     </svg>
                   </button>
                 </div>
+                <span className="spcss"> <a className="acss" href="/ptecourse">Know More</a></span>
               </div>
 
               <div className="card">
@@ -426,6 +434,7 @@ export const Home = () => {
                 Test of English as a Foreign Language
                 </div>
                 <hr className="card-divider" />
+                
                 <div className="card-footer">
                   <div className="card-price">
                     <span>$</span> 123.45
@@ -442,6 +451,7 @@ export const Home = () => {
                     </svg>
                   </button>
                 </div>
+                <span className="spcss"> <a className="acss" href="/toeflcourse">Know More</a></span>
               </div>
 
               {/* <div className="card">

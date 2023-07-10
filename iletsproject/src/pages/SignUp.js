@@ -1,3 +1,6 @@
+import { Form } from "react-router-dom";
+import { Footer } from "../component/Footer";
+
 export const SignUp = () => {
   return (
     <>
@@ -115,6 +118,7 @@ export const SignUp = () => {
       </div>
       </div>
       </div>
+     <Footer/>
     </>
   );
 };
