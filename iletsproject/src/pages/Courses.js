@@ -35,10 +35,7 @@ export const Courses = () => {
                       </li>
                     </ul>
                   </li>
-                  <li>
-                    <a href="
-                              \courses">Courses</a>
-                  </li>
+                  
                   <li>
                     <a href="\">Contact Us</a>
                   </li>
@@ -67,18 +64,7 @@ export const Courses = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="row">
-                <div className="col-lg-12">
-                  <div className="filters">
-                    <ul>
-                      <li data-filter="*" className="active">
-                        All Meetings
-                      </li>
-                      <li data-filter=".soon">Soon</li>
-                      <li data-filter=".imp">Important</li>
-                      <li data-filter=".att">Attractive</li>
-                    </ul>
-                  </div>
-                </div>
+            
 
                 {/* cards */}
                 <div className="flcss">
@@ -416,42 +402,15 @@ export const Courses = () => {
                     </div>
                     </div>
 
-                <div className="col-lg-12">
-                  <div className="pagination">
-                    <ul>
-                      <li>
-                        <a href="#">1</a>
-                      </li>
-                      <li className="active">
-                        <a href="#">2</a>
-                      </li>
-                      <li>
-                        <a href="#">3</a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fa fa-angle-right" />
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+               
               </div>
             </div>
           </div>
         </div>
         <div className="footer">
           <p>
-            Copyright © 2022 Edu Meeting Co., Ltd. All Rights Reserved.
-            <br />
-            Design:{" "}
-            <a
-              href="https://templatemo.com/page/1"
-              target="_parent"
-              title="website templates"
-            >
-              TemplateMo
-            </a>
+            Copyright © Jatin Sidana
+            
           </p>
         </div>
       </section>

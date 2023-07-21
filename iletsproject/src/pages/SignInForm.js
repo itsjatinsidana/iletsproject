@@ -51,21 +51,19 @@ export const SignInForm = () =>{
                   </li>
                   
                   <li className="has-sub">
-                    <a href="javascript:void(0)">Sign up</a>
+                    <a href="javascript:void(0)">Register</a>
                     <ul className="sub-menu">
                       <li>
-                        <a href="\signin">SignIn</a>
+                        <a href="\signin">SignUP</a>
                       </li>
                       <li>
-                        <a href="meeting-details.html">SignUp</a>
+                        <a href="\signup">SignIp</a>
                       </li>
                     </ul>
                   </li>
+                  
                   <li className="scroll-to-section">
-                    <a href="#courses">Courses</a>
-                  </li>
-                  <li className="scroll-to-section">
-                    <a href="#contact">Contact Us</a>
+                    <a href="\">Contact Us</a>
                   </li>
                 </ul>
                 <a className="menu-trigger">
@@ -93,12 +91,12 @@ export const SignInForm = () =>{
 </div>
 <br/>
 
- <div className="form-container">
+ <div className="form-container ">
  {/*<div className="image-container">
         <img src="../assets/images/new1.jpg" alt="Form" className="form-image" />
   </div> */}
       <h2>Sign Up</h2>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="">
         <div className="form-group">
           <label htmlFor="candidateName">Candidate Name:</label>
           <input
@@ -203,18 +201,11 @@ export const SignInForm = () =>{
       </form>
     </div>
     </div>
-    <div className="footer">
+    <div className="footer ">
           <p>
-            Copyright © 2022 Edu Meeting Co., Ltd. All Rights Reserved.
-            <br />
-            Design:{" "}
-            <a
-              href="https://templatemo.com"
-              target="_parent"
-              title="free css templates"
-            >
-              TemplateMo
-            </a>
+            Copyright © 2022 Jatin Sidana
+            
+           
           </p>
         </div>
     </> 

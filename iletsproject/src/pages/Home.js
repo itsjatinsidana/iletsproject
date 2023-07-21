@@ -126,10 +126,10 @@ export const Home = () => {
       {/* ***** Main Banner Area End ***** */}
 
       <section className="upcoming-meetings" id="meetings">
-        <section className="services">
+        <section className="services ">
           <div className="container">
             <div className="row">
-              <div className="col-lg-12 cardflex">
+              <div className="col-lg-12 cardflex homecard-banner">
                 <div className="item item1">
                   <div className="icon icon">
                     <img src="..\assets\images\service-icon-01.png" alt="" />
@@ -163,7 +163,7 @@ export const Home = () => {
                     </p>
                   </div>
                 </div>
-                <div className="item">
+                <div className="item item1">
                   <div className="icon">
                     <img src="../assets/images/service-icon-04.png" alt="" />
                   </div>
@@ -830,16 +830,8 @@ export const Home = () => {
         </div>
         <div className="footer">
           <p>
-            Copyright © 2022 Edu Meeting Co., Ltd. All Rights Reserved.
-            <br />
-            Design:{" "}
-            <a
-              href="https://templatemo.com"
-              target="_parent"
-              title="free css templates"
-            >
-              TemplateMo
-            </a>
+            Copyright © 2022  Jatin Sidana
+          
           </p>
         </div>
       </section>

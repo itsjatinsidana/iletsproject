@@ -180,6 +180,11 @@ select {
   box-sizing: border-box;
   font-size: 14px;
 }
+.item1{
+  width: 900px;
+  text-align: center;
+  
+}
 
 .radio-group {
   display: flex;
@@ -415,6 +420,9 @@ button:hover {
   
 
 
+}
+.signup-container{
+  background-color: #000446;
 }
 
 .card-img-top {
@@ -1540,7 +1548,8 @@ services
 
    .services .cardflex{
     display: flex;
-    justify-content: space-between;
+    text-align: center;
+    justify-content: space-around;
     gap: 10px;
    }
  /*

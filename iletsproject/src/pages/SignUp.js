@@ -26,25 +26,21 @@ export const SignUp = () => {
                       Courses
                     </a>
                   </li>
-                  <li>
-                    <a href="\coursedetail">Course Details</a>
-                  </li>
+                
                   <li className="has-sub">
-                    <a href="javascript:void(0)">Pages</a>
+                    <a href="javascript:void(0)">Register</a>
                     <ul className="sub-menu">
                       <li>
-                        <a href="meetings.html">Upcoming Meetings</a>
+                        <a href="\signin">SignUP</a>
                       </li>
                       <li>
-                        <a href="meeting-details.html">Meeting Details</a>
+                        <a href="\signup">SignIn</a>
                       </li>
                     </ul>
                   </li>
+                  
                   <li>
-                    <a href="index.html">Courses</a>
-                  </li>
-                  <li>
-                    <a href="index.html">Contact Us</a>
+                    <a href="\">Contact Us</a>
                   </li>
                 </ul>
                 <a className="menu-trigger">
@@ -62,7 +58,7 @@ export const SignUp = () => {
           <div className="row">
             <div className="col-lg-12">
               <h6>  </h6>
-              <h2> Courses </h2>
+              <h2> Sign In </h2>
             </div>
           </div>
         </div>
