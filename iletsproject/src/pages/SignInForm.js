@@ -97,7 +97,7 @@ export const SignInForm = () =>{
  {/*<div className="image-container">
         <img src="../assets/images/new1.jpg" alt="Form" className="form-image" />
   </div> */}
-      <h2>Sign In</h2>
+      <h2>Sign Up</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="candidateName">Candidate Name:</label>

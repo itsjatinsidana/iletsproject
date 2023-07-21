@@ -67,13 +67,13 @@ export const Home = () => {
                   </li>
 
                   <li className="has-sub">
-                    <a href="javascript:void(0)">Sign up</a>
+                    <a href="javascript:void(0)">Register</a>
                     <ul className="sub-menu">
                       <li>
-                        <a href="\signin">SignIn</a>
+                        <a href="\signin">SignUp</a>
                       </li>
                       <li>
-                        <a href="meeting-details.html">SignUp</a>
+                        <a href="\signup">SignIn</a>
                       </li>
                     </ul>
                   </li>

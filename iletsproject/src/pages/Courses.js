@@ -19,13 +19,13 @@ export const Courses = () => {
                     <a href="\">Home</a>
                   </li>
                   <li>
-                    <a href="\couses" className="active">
+                    <a href="\courses" className="active">
                       courses
                     </a>
                   </li>
 
                   <li className="has-sub">
-                    <a href="javascript:void(0)">signup</a>
+                    <a href="javascript:void(0)">Register</a>
                     <ul className="sub-menu">
                       <li>
                         <a href="\signin">signin</a>
@@ -36,10 +36,11 @@ export const Courses = () => {
                     </ul>
                   </li>
                   <li>
-                    <a href="index.html">Courses</a>
+                    <a href="
+                              \courses">Courses</a>
                   </li>
                   <li>
-                    <a href="index.html">Contact Us</a>
+                    <a href="\">Contact Us</a>
                   </li>
                 </ul>
                 <a className="menu-trigger">
