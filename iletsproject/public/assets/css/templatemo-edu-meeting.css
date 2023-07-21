@@ -421,6 +421,11 @@ button:hover {
  
 
  
+}@media screen and (max-width:880) {
+  .our-courses{
+   display: none;
+   
+  }
 }
 
 .second-card1{
@@ -1952,6 +1957,13 @@ section.our-courses {
   padding-top: 140px;
   padding-bottom: 130px;
 }
+@media screen and (max-width:700px) {
+  .section.our-courses{
+    display: none;
+  }
+  
+}
+
 
 .our-courses .item .down-content {
   background-color: #fff;

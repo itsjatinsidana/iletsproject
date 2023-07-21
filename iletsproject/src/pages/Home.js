@@ -349,11 +349,12 @@ export const Home = () => {
           </div>
         </div> */}
       </section>
-
+  
       <section className="our-courses" id="courses">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12">
+           
+            <div className="col-lg-12 card-container">
               <div className="section-heading second-card1">
                 <h2>Our Popular Courses</h2>
               </div>
@@ -574,7 +575,7 @@ export const Home = () => {
                   </div>
                 </div>
       </section>
-
+      
       <section className="our-facts ">
         <div className="container">
           <div className="row">
