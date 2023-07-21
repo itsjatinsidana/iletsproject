@@ -244,7 +244,7 @@ button[type='submit']:hover {
 }
 
 .acss:hover {
-  color: #ff0000;
+  color: #000446;
 }
 
 
@@ -2096,6 +2096,54 @@ section.our-courses {
   line-height: 50px;
 }
 
+
+.container-head{
+  display: flex;
+ background-color:#08415c;
+ padding: 70px;
+  justify-content: center;
+  color: white;
+  font-family:'Times New Roman', Times, serif ;
+}
+
+
+
+.card-container{
+  display: flex;
+  justify-content: space-evenly;
+  background-color:#08415c;
+  padding: 20px;
+}
+@media screen and (max-width:950px) {
+    .card-container{
+      display: flex;
+      flex-direction: column;
+   
+  align-items: center;
+      
+      gap: 20px;
+    }
+    
+}
+.cardone{
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 300px;
+  height: 450px;
+  align-items: center;
+  text-align: center;
+}
+.card1-footer{
+background-color:#7e7e7e;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+width: 80%;
+height: 50px;
+
+}
 
 /*
 ---------------------------------------------
