@@ -123,100 +123,133 @@ export const Home = () => {
           </div>
         </div>
       </section>
+      <div className="red-cards">
+        <figure className="red-background">
+          <img src="..\assets\images\service-icon-01.png" alt="" className="red-logo" />
+          <h4>FREE DEMO CLASSES</h4>
+          <p>
+            Register with Bhasha for a free demo class.
+          </p>
+        </figure>
+        <figure className="red-background">
+          <img src="..\assets\images\service-icon-01.png" alt="" className="red-logo" />
+          <h4>FREE DEMO CLASSES</h4>
+          <p>
+            Register with Bhasha for a free demo class.
+          </p>
+        </figure>
+        <figure className="red-background">
+          <img src="..\assets\images\service-icon-01.png" alt="" className="red-logo" />
+          <h4>FREE DEMO CLASSES</h4>
+          <p>
+            Register with Bhasha for a free demo class.
+          </p>
+        </figure>
+        <figure className="red-background">
+          <img src="..\assets\images\service-icon-01.png" alt="" className="red-logo" />
+          <h4>FREE DEMO CLASSES</h4>
+          <p>
+            Register with Bhasha for a free demo class.
+          </p>
+        </figure>
+      </div>
+     
       {/* ***** Main Banner Area End ***** */}
 
-     <div className="container-head">
-     <h2>Our Popular Courses</h2>
-     </div>
-     <div className="card-container">
-      <div className="cardone">
-      <div className="card-img card1-image">
-       <img src="assets/images/ieltstransparent.svg" alt="Course One"/>
+      <div className="container-head">
+        <h2>Our Popular Courses</h2>
       </div>
-      <div className="card-tittle">
-      <h3>ILETS</h3>
-      </div>
-      <div className="card-content">
-        <p>International English Language Testing System</p>
-      </div>
-      <div className="card1-footer">
-           <span>Rs. 1200</span>
-          
-           <button className="card-btn"> 
-           <svg
-                      viewBox="0 0 512 512"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z" />
-                      <path d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
-                      <path d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
-                      <path d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z" />
-                    </svg>
-           </button>
-      </div>
-      <div className="knowmore">
-      <span className="spcss"> <a className="acss" href="/ilets">Know More</a></span>
-      </div>
-      </div>
+      <div className="card-container">
+        <div className="cardone">
+          <div className="card-img card1-image">
+            <img src="assets/images/ieltstransparent.svg" alt="Course One" />
+          </div>
+          <div className="card-tittle">
+            <h3>ILETS</h3>
+          </div>
+          <div className="card-content">
+            <p>International English Language Testing System</p>
+          </div>
+          <div className="card1-footer">
+            <span>Rs. 1200</span>
 
-      <div className="cardone">
-      <div className="card-img">
-       <img src="assets/images/ptetransparent.svg" alt="Course One"/>
-      </div>
-      <div className="card-tittle">
-      <h3>PTE</h3>
-      </div>
-      <div className="card-content">
-        <p>Pearson's Test of English</p>
-      </div>
-      <div className="card1-footer">
-           <span>Rs. 1200</span>
-          
-           <button className="card-btn"> 
-           <svg
-                      viewBox="0 0 512 512"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z" />
-                      <path d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
-                      <path d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
-                      <path d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z" />
-                    </svg>
-           </button>
-      </div>
-      <span className="spcss"> <a className="acss" href="/ptecourse">Know More</a></span>
+            <button className="card-btn">
+              <svg
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z" />
+                <path d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                <path d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                <path d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z" />
+              </svg>
+            </button>
+          </div>
+          <div className="knowmore">
+            <span className="spcss"> <a className="acss" href="/ilets">Know More</a></span>
+          </div>
+        </div>
+
+        <div className="cardone">
+          <div className="card-img">
+            <img src="assets/images/ptetransparent.svg" alt="Course One" />
+          </div>
+          <div className="card-tittle">
+            <h3>PTE</h3>
+          </div>
+          <div className="card-content">
+            <p>Pearson's Test of English</p>
+          </div>
+          <div className="card1-footer">
+            <span>Rs. 1200</span>
+
+            <button className="card-btn">
+              <svg
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z" />
+                <path d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                <path d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                <path d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z" />
+              </svg>
+            </button>
+          </div>
+          <div className="knowmore">
+            <span className="spcss"> <a className="acss" href="/ptecourse">Know More</a></span>
+          </div>
+        </div>
+        <div className="cardone">
+          <div className="card-img ">
+            <img src="assets/images/toefltransparent.svg" alt="Course One" />
+          </div>
+          <div className="card-tittle">
+            <h3>TOEFL</h3>
+          </div>
+          <div className="card-content">
+            <p>   Test of English as a Foreign Language</p>
+          </div>
+          <div className="card1-footer">
+            <span>Rs. 1200</span>
+
+            <button className="card-btn">
+              <svg
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z" />
+                <path d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                <path d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                <path d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z" />
+              </svg>
+            </button>
+          </div>
+          <div className="knowmore">
+            <span className="spcss"> <a className="acss" href="/toeflcourse">Know More</a></span>
+          </div>
+        </div>
 
       </div>
-      <div className="cardone">
-      <div className="card-img ">
-       <img src="assets/images/toefltransparent.svg" alt="Course One"/>
-      </div>
-      <div className="card-tittle">
-      <h3>TOEFL</h3>
-      </div>
-      <div className="card-content">
-        <p>   Test of English as a Foreign Language</p>
-      </div>
-      <div className="card1-footer">
-           <span>Rs. 1200</span>
-          
-           <button className="card-btn"> 
-           <svg
-                      viewBox="0 0 512 512"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z" />
-                      <path d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
-                      <path d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
-                      <path d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z" />
-                    </svg>
-           </button>
-      </div>
-      <span className="spcss"> <a className="acss" href="/toeflcourse">Know More</a></span>
-
-      </div>
-
-     </div>
       {/* new component added */}
       <main className="newcss">
         <div className="container py-4 ">
@@ -418,7 +451,7 @@ export const Home = () => {
         <div className="footer">
           <p>
             Copyright © 2022  Jatin Sidana
-          
+
           </p>
         </div>
       </section>

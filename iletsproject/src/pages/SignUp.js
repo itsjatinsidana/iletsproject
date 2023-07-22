@@ -67,9 +67,8 @@ export const SignUp = () => {
       <br/>
       <br/>
       <br/>
-      <div className="container">
-        <div className="row">
-            <div className="col-12">
+      
+           <div className="signin-container">
       <form className="formSI cardSI">
         <div className="card_headerSI">
           <svg
@@ -111,8 +110,6 @@ export const SignUp = () => {
         </div>
         
       </form>
-      </div>
-      </div>
       </div>
      <Footer/>
     </>
