@@ -127,29 +127,29 @@ export const Home = () => {
         <figure className="red-background">
           <img src="..\assets\images\service-icon-01.png" alt="" className="red-logo" />
           <h4>FREE DEMO CLASSES</h4>
-          <p>
+          <p className="pcolur">
             Register with Bhasha for a free demo class.
           </p>
         </figure>
         <figure className="red-background">
-          <img src="..\assets\images\service-icon-01.png" alt="" className="red-logo" />
-          <h4>FREE DEMO CLASSES</h4>
-          <p>
-            Register with Bhasha for a free demo class.
+          <img src="../assets/images/service-icon-02.png" alt="" className="red-logo" />
+          <h4>MOCK TEST EVALUATION</h4>
+          <p className="pcolur">
+           Mock test gives your learners a true exam day experience, helps you understand their progress and decide if they are ready for their exam.
           </p>
         </figure>
         <figure className="red-background">
-          <img src="..\assets\images\service-icon-01.png" alt="" className="red-logo" />
-          <h4>FREE DEMO CLASSES</h4>
-          <p>
-            Register with Bhasha for a free demo class.
+          <img src="../assets/images/service-icon-03.png" alt="" className="red-logo" />
+          <h4>MODULE-WISE LEARNING</h4>
+          <p className="pcolur">
+          Module-wise Modules are routinely refreshed to keep up the uniqueness of the educational program. 
           </p>
         </figure>
         <figure className="red-background">
-          <img src="..\assets\images\service-icon-01.png" alt="" className="red-logo" />
-          <h4>FREE DEMO CLASSES</h4>
-          <p>
-            Register with Bhasha for a free demo class.
+          <img src="../assets/images/service-icon-04.png" alt="" className="red-logo" />
+          <h4>SPEAKING MOCK TEST PRACTISE</h4>
+          <p className="pcolur">
+          Answering practise speaking questions of our courses is one of the best way to prepare for your test.
           </p>
         </figure>
       </div>
