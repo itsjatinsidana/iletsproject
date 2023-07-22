@@ -153,7 +153,7 @@ export const Home = () => {
           </p>
         </figure>
       </div>
-     
+
       {/* ***** Main Banner Area End ***** */}
 
       <div className="container-head">

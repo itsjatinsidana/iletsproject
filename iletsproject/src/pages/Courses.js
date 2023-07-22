@@ -61,9 +61,9 @@ export const Courses = () => {
       </section>
       <section className="meetings-page" id="meetings">
         <div className="container">
-          <div className="row">
+          <div className="row flcss1">
             <div className="col-lg-12">
-              <div className="row">
+              <div className="row flcss1">
             
 
                 {/* cards */}
